@@ -48,43 +48,40 @@ public class ApplyController
 
   public HttpResponse handle(HttpRequest request, HttpResponse response, String origFileName)
   {
-    Jobseeker jobseeker      = request.getSession().getJobseeker();
-    JobseekerProfile profile = jobseekerProfileManager.getJobSeekerProfile(jobseeker);
+    Jobseeker jobseeker      = request.getJobseeker();
     Job job                  = jobSearchService.getJobByIdString(request.getParameter("jobId"));
     
-    //when job is null, return 404 or some such
     if (job == null)
     {
-      provideInvalidJobResponse(response, request.getParameter("jobId"));
-      return response;
+      return provideInvalidJobResponse(response, request.getParameter("jobId"));
     }
 
-    Map<String, Object> model = job.getReponsePayload();
+    try { apply(request, jobseeker, job, origFileName); }
+    catch (Exception e) { return respondOnApplicationError(response, job); }
     
-    try
-    {
-      apply(request, jobseeker, job, origFileName);
-    }
-    catch (Exception e)
-    {
-      List<String> errList = new ArrayList<>();
-      errList.add("We could not process your application.");
-      responseBroker.provideResponseWithList(response, model, "error", errList);
-      return response;
-    }
-    
-    if(jobseeker.forcedToCompleteProfile(profile))
-    {
-      responseBroker.provideResponse(response, model, "completeResumePlease");
-      return response;
-    }
-
-    // render a success view
-    responseBroker.provideResponse(response, model, "success");
-
+    return respondOnApplicationSuccess(jobseeker, job, response, responseBroker);
+  }
+  
+  private HttpResponse respondOnApplicationError(HttpResponse response, Job job)
+  {
+    List<String> errList = new ArrayList<>();
+    errList.add(jobApplicationSystem.getJobApplicationFailedMessage());
+    responseBroker.provideResponseWithList(response, job.getReponsePayload(), "error", errList);
     return response;
   }
+  
+  private HttpResponse respondOnApplicationSuccess(Jobseeker jobseeker, Job job, HttpResponse response, ResponseBroker responseBroker)
+  {
+    if(jobseeker.forcedToCompleteProfile(jobseeker.profile))
+    {
+      responseBroker.provideResponse(response, job.getReponsePayload(), "completeResumePlease");
+      return response;
+    }
 
+    responseBroker.provideResponse(response, job.getReponsePayload(), "success");
+    return response;
+  }
+  
   //applying for a job
   private void apply(HttpRequest request,
                      Jobseeker jobseeker,
@@ -136,10 +133,11 @@ public class ApplyController
   }
 
   //inconsistent param types
-  private void provideInvalidJobResponse(HttpResponse response, final String jobIdString)
+  private HttpResponse provideInvalidJobResponse(HttpResponse response, final String jobIdString)
   {
 	final int jobId = Integer.parseInt(jobIdString);
     HashMap<String, Object > model = new HashMap<String, Object>(){{ put("jobId", jobId); }};
     responseBroker.provideResponse(response, model, "invalidJob");
+    return response;
   }
 }

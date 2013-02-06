@@ -47,7 +47,8 @@ public class TestIt
   @Test
   public void requestWithValidJob()
   {
-    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true);
+	JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager(jobseekerProfileRepository);
+    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true, jobseekerProfileManager);
     HttpSession session = new HttpSession(JOBSEEKER);
 
     Map<String, String> parameters = new HashMap<>();
@@ -65,7 +66,8 @@ public class TestIt
   @Test
   public void requestWithValidJobByBasic()
   {
-    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, false);
+    JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager(jobseekerProfileRepository);
+    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, false, jobseekerProfileManager);
     HttpSession session = new HttpSession(JOBSEEKER);
 
     Map<String, String> parameters = new HashMap<>();
@@ -83,7 +85,8 @@ public class TestIt
   @Test
   public void applyUsingExistingResume()
   {
-    Jobseeker JOBSEEKER = new Jobseeker(JOBSEEKER_WITH_RESUME, true);
+	JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager(jobseekerProfileRepository);
+    Jobseeker JOBSEEKER = new Jobseeker(JOBSEEKER_WITH_RESUME, true, jobseekerProfileManager);
     HttpSession session = new HttpSession(JOBSEEKER);
 
     Map<String, String> parameters = new HashMap<>();
@@ -102,7 +105,8 @@ public class TestIt
   @Test
   public void requestWithInvalidJob()
   {
-    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true);
+	JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager(jobseekerProfileRepository);
+    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true, jobseekerProfileManager);
     HttpSession session = new HttpSession(JOBSEEKER);
 
     Map<String, String> parameters = new HashMap<>();
@@ -120,7 +124,8 @@ public class TestIt
   @Test
   public void requestWithNoResume()
   {
-    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true);
+	JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager(jobseekerProfileRepository);
+    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true, jobseekerProfileManager);
     HttpSession session = new HttpSession(JOBSEEKER);
 
     Map<String, String> parameters = new HashMap<>();
@@ -138,7 +143,8 @@ public class TestIt
   @Test
   public void reapplyToJob()
   {
-    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true);
+	JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager(jobseekerProfileRepository);
+    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true, jobseekerProfileManager);
     HttpSession session = new HttpSession(JOBSEEKER);
 
     Map<String, String> parameters = new HashMap<>();
@@ -156,7 +162,8 @@ public class TestIt
   @Test
   public void unapprovedBasic()
   {
-    Jobseeker JOBSEEKER = new Jobseeker(INCOMPLETE_JOBSEEKER, false);
+	JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager(jobseekerProfileRepository);
+    Jobseeker JOBSEEKER = new Jobseeker(INCOMPLETE_JOBSEEKER, false, jobseekerProfileManager);
     HttpSession session = new HttpSession(JOBSEEKER);
 
     Map<String, String> parameters = new HashMap<>();
@@ -174,7 +181,8 @@ public class TestIt
   @Test
   public void resumeIsSaved()
   {
-    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true);
+	JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager(jobseekerProfileRepository);
+    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true, jobseekerProfileManager);
     HttpSession session = new HttpSession(JOBSEEKER);
 
     Map<String, String> parameters = new HashMap<>();
@@ -192,7 +200,8 @@ public class TestIt
   @Test
   public void resumeIsMadeActive()
   {
-    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true);
+	JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager(jobseekerProfileRepository);
+    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true, jobseekerProfileManager);
     HttpSession session = new HttpSession(JOBSEEKER);
 
     Map<String, String> parameters = new HashMap<>();
@@ -277,7 +286,8 @@ public class TestIt
 
   private void addToJobApplicationRepository()
   {
-    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true);
+	JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager(jobseekerProfileRepository);
+    Jobseeker JOBSEEKER = new Jobseeker(APPROVED_JOBSEEKER, true, jobseekerProfileManager);
     Job job = new Job(15);
     Resume resume = new Resume("foo");
 

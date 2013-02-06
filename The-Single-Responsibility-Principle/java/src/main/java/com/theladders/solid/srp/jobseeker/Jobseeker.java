@@ -2,14 +2,19 @@ package com.theladders.solid.srp.jobseeker;
 
 public class Jobseeker
 {
+  public final JobseekerProfile profile;
   private final int id;
   private final boolean hasPremiumAccount;
+  private final JobseekerProfileManager jobseekerProfileManager;
 
-  public Jobseeker(int id, boolean hasPremiumAccount)
+  public Jobseeker(int id, boolean hasPremiumAccount, JobseekerProfileManager jobseekerProfileManager)
   {
     this.id = id;
     this.hasPremiumAccount = hasPremiumAccount;
+    this.jobseekerProfileManager = jobseekerProfileManager;
+    this.profile = jobseekerProfileManager.getJobSeekerProfile(this);
   }
+
 
   public boolean isPremium()
   {

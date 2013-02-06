@@ -4,10 +4,12 @@ package com.theladders.solid.srp.job.application;
 public class JobApplicationSystem
 {
   private final JobApplicationRepository repository;
+  private final String errorMessage;
 
   public JobApplicationSystem(JobApplicationRepository repository)
   {
     this.repository = repository;
+    this.errorMessage = "We could not process your application.";
   }
 
   public JobApplicationResult apply(UnprocessedApplication application)
@@ -26,5 +28,10 @@ public class JobApplicationSystem
     }
 
     return new FailedApplication();
+  }
+  
+  public String getJobApplicationFailedMessage()
+  {
+	return errorMessage;  
   }
 }
