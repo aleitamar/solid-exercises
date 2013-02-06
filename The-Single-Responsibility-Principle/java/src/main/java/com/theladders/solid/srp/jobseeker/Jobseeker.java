@@ -15,6 +15,10 @@ public class Jobseeker
   {
     return hasPremiumAccount;
   }
+  
+  public boolean forcedToCompleteProfile(JobseekerProfile profile){
+    return !this.hasPremiumAccount && profile.needsCompletion();
+  }
 
   public int getId()
   {

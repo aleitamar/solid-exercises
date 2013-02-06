@@ -14,4 +14,9 @@ public class JobSearchService
   {
     return repository.getJob(jobId);
   }
+
+  public Job getJobByIdString(String idString) {
+    int jobId = Integer.parseInt(idString);
+	return getJob(jobId);
+  }
 }

@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.theladders.solid.srp.ResponseBroker;
 import com.theladders.solid.srp.http.HttpRequest;
 import com.theladders.solid.srp.http.HttpResponse;
 import com.theladders.solid.srp.job.Job;
@@ -28,11 +29,13 @@ public class ApplyController
   private final JobApplicationSystem    jobApplicationSystem;
   private final ResumeManager           resumeManager;
   private final MyResumeManager         myResumeManager;
-
+  private final ResponseBroker          responseBroker;
+  
+  //Constructor
   public ApplyController(JobseekerProfileManager jobseekerProfileManager,
                          JobSearchService jobSearchService,
                          JobApplicationSystem jobApplicationSystem,
-                         ResumeManager resumeManager,
+                         ResumeManager resumeManager, //huh?
                          MyResumeManager myResumeManager)
   {
     this.jobseekerProfileManager = jobseekerProfileManager;
@@ -40,105 +43,90 @@ public class ApplyController
     this.jobApplicationSystem = jobApplicationSystem;
     this.resumeManager = resumeManager;
     this.myResumeManager = myResumeManager;
+    this.responseBroker = new ResponseBroker();
   }
 
-  public HttpResponse handle(HttpRequest request,
-                             HttpResponse response,
-                             String origFileName)
+  public HttpResponse handle(HttpRequest request, HttpResponse response, String origFileName)
   {
-    Jobseeker jobseeker = request.getSession().getJobseeker();
+    Jobseeker jobseeker      = request.getSession().getJobseeker();
     JobseekerProfile profile = jobseekerProfileManager.getJobSeekerProfile(jobseeker);
-
-    String jobIdString = request.getParameter("jobId");
-    int jobId = Integer.parseInt(jobIdString);
-
-    Job job = jobSearchService.getJob(jobId);
-
+    Job job                  = jobSearchService.getJobByIdString(request.getParameter("jobId"));
+    
+    //when job is null, return 404 or some such
     if (job == null)
     {
-      provideInvalidJobView(response, jobId);
+      provideInvalidJobResponse(response, request.getParameter("jobId"));
       return response;
     }
 
-    Map<String, Object> model = new HashMap<>();
-
-    List<String> errList = new ArrayList<>();
-
+    Map<String, Object> model = job.getReponsePayload();
+    
     try
     {
       apply(request, jobseeker, job, origFileName);
     }
     catch (Exception e)
     {
+      List<String> errList = new ArrayList<>();
       errList.add("We could not process your application.");
-      provideErrorView(response, errList, model);
+      responseBroker.provideResponseWithList(response, model, "error", errList);
       return response;
     }
-
-    model.put("jobId", job.getJobId());
-    model.put("jobTitle", job.getTitle());
-
-    if (!jobseeker.isPremium() && (profile.getStatus().equals(ProfileStatus.INCOMPLETE) ||
-                                   profile.getStatus().equals(ProfileStatus.NO_PROFILE) ||
-                                   profile.getStatus().equals(ProfileStatus.REMOVED)))
+    
+    if(jobseeker.forcedToCompleteProfile(profile))
     {
-      provideResumeCompletionView(response, model);
+      responseBroker.provideResponse(response, model, "completeResumePlease");
       return response;
     }
 
-    provideApplySuccessView(response, model);
+    // render a success view
+    responseBroker.provideResponse(response, model, "success");
 
     return response;
   }
 
-  private static void provideApplySuccessView(HttpResponse response, Map<String, Object> model)
-  {
-    Result result = new Result("success", model);
-    response.setResult(result);
-  }
-
-  private static void provideResumeCompletionView(HttpResponse response, Map<String, Object> model)
-  {
-    Result result = new Result("completeResumePlease", model);
-    response.setResult(result);
-  }
-
-  private static void provideErrorView(HttpResponse response, List<String> errList, Map<String, Object> model)
-  {
-   Result result = new Result("error", model, errList);
-   response.setResult(result);
-  }
-
+  //applying for a job
   private void apply(HttpRequest request,
                      Jobseeker jobseeker,
                      Job job,
                      String fileName)
   {
+	//find or create resume for jobseeker
     Resume resume = saveNewOrRetrieveExistingResume(fileName,jobseeker, request);
+    //create an unprocessed application
     UnprocessedApplication application = new UnprocessedApplication(jobseeker, job, resume);
+    //calling apply to the job application system
     JobApplicationResult applicationResult = jobApplicationSystem.apply(application);
 
+    //if the application fails, throw an error
     if (applicationResult.failure())
     {
       throw new ApplicationFailureException(applicationResult.toString());
     }
   }
 
+  //find or create resume by jobseeker
   private Resume saveNewOrRetrieveExistingResume(String newResumeFileName,
                                                  Jobseeker jobseeker,
                                                  HttpRequest request)
   {
+	//initialize resume
     Resume resume;
 
+    // if it doesn't already exists
     if (!"existing".equals(request.getParameter("whichResume")))
     {
+      // creates a resume with the given filename
       resume = resumeManager.saveResume(jobseeker, newResumeFileName);
 
+      //if the resume is not null and the user chooses to make the resume active
       if (resume != null && "yes".equals(request.getParameter("makeResumeActive")))
       {
+    	// save resume
         myResumeManager.saveAsActive(jobseeker, resume);
       }
     }
+    //get existing resume
     else
     {
       resume = myResumeManager.getActiveResume(jobseeker.getId());
@@ -147,12 +135,11 @@ public class ApplyController
     return resume;
   }
 
-  private static void provideInvalidJobView(HttpResponse response, int jobId)
+  //inconsistent param types
+  private void provideInvalidJobResponse(HttpResponse response, final String jobIdString)
   {
-    Map<String, Object> model = new HashMap<>();
-    model.put("jobId", jobId);
-
-    Result result = new Result("invalidJob", model);
-    response.setResult(result);
+	final int jobId = Integer.parseInt(jobIdString);
+    HashMap<String, Object > model = new HashMap<String, Object>(){{ put("jobId", jobId); }};
+    responseBroker.provideResponse(response, model, "invalidJob");
   }
 }

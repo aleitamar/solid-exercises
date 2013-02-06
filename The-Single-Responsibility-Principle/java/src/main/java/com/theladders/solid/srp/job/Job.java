@@ -1,5 +1,8 @@
 package com.theladders.solid.srp.job;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Job
 {
   private final int id;
@@ -19,6 +22,13 @@ public class Job
   public String getTitle()
   {
     return title;
+  }
+  
+  public Map<String, Object> getReponsePayload(){
+    Map<String, Object> model = new HashMap<>();
+    model.put("jobId", getJobId());
+    model.put("jobTitle", getTitle());
+    return model;
   }
 
   @Override
