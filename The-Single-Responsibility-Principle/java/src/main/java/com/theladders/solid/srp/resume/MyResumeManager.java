@@ -14,23 +14,23 @@ public class MyResumeManager
     this.repository = repository;
     this.resumeManager = resumeManager;
   }
-  
+
   public Resume findOrCreateResumeWithOptions(Jobseeker jobseeker, Map<String, Boolean> options, String filename)
   {  
     Resume resume;
-	if (options.get("isNewResume"))
-	{
-	  resume = resumeManager.saveResume(jobseeker, filename);
-	  if (resume != null && options.get("shouldMakeResumeActive"))
-	  {
-	    saveAsActive(jobseeker, resume);
-	  }
-	}
-	else
-	{
-	  resume = getActiveResume(jobseeker.getId());
-	}
-	return resume;
+    if (options.get("isNewResume"))
+    {
+      resume = resumeManager.saveResume(jobseeker, filename);
+      if (resume != null && options.get("shouldMakeResumeActive"))
+      {
+        saveAsActive(jobseeker, resume);
+      }
+    }
+    else
+    {
+      resume = getActiveResume(jobseeker.getId());
+    }
+    return resume;
   }
 
   public void saveAsActive(Jobseeker jobseeker,
