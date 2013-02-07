@@ -5,9 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.theladders.solid.srp.ResponseBroker;
 import com.theladders.solid.srp.http.HttpRequest;
 import com.theladders.solid.srp.http.HttpResponse;
+import com.theladders.solid.srp.http.HttpResponseBroker;
 import com.theladders.solid.srp.job.Job;
 import com.theladders.solid.srp.job.JobSearchService;
 import com.theladders.solid.srp.job.application.ApplicationFailureException;
@@ -21,18 +21,21 @@ import com.theladders.solid.srp.jobseeker.Jobseeker;
 import com.theladders.solid.srp.resume.MyResumeManager;
 import com.theladders.solid.srp.resume.Resume;
 import com.theladders.solid.srp.resume.ResumeManager;
+import com.theladders.solid.srp.resume.ResumeSearchService;
 
 public class ApplyController
 {
   private final JobseekerProfileManager jobseekerProfileManager;
   private final JobSearchService        jobSearchService;
+  private final ResumeSearchService     resumeSearchService;
   private final JobApplicationSystem    jobApplicationSystem;
   private final ResumeManager           resumeManager;
   private final MyResumeManager         myResumeManager;
-  private final ResponseBroker          responseBroker;
+  private final HttpResponseBroker          responseBroker;
   
   //Constructor
   public ApplyController(JobseekerProfileManager jobseekerProfileManager,
+		                 ResumeSearchService resumeSearchService,
                          JobSearchService jobSearchService,
                          JobApplicationSystem jobApplicationSystem,
                          ResumeManager resumeManager, //huh?
@@ -40,23 +43,24 @@ public class ApplyController
   {
     this.jobseekerProfileManager = jobseekerProfileManager;
     this.jobSearchService = jobSearchService;
+    this.resumeSearchService = resumeSearchService;
     this.jobApplicationSystem = jobApplicationSystem;
     this.resumeManager = resumeManager;
     this.myResumeManager = myResumeManager;
-    this.responseBroker = new ResponseBroker();
+    this.responseBroker = new HttpResponseBroker();
   }
 
   public HttpResponse handle(HttpRequest request, HttpResponse response, String origFileName)
   {
-    Jobseeker jobseeker      = request.getJobseeker();
-    Job job                  = jobSearchService.getJobByIdString(request.getParameter("jobId"));
+	ApplyParams applyParams  = new ApplyParams(request, jobSearchService);
+    Jobseeker jobseeker      = applyParams.getJobseeker();
+    Job job                  = applyParams.getJob();    
     
     if (job == null)
     {
       return provideInvalidJobResponse(response, request.getParameter("jobId"));
     }
-
-    try { apply(request, jobseeker, job, origFileName); }
+    try { jobseeker.apply(job, origFileName, applyParams.resumeOptions(), jobApplicationSystem, myResumeManager); }
     catch (Exception e) { return respondOnApplicationError(response, job); }
     
     return respondOnApplicationSuccess(jobseeker, job, response, responseBroker);
@@ -70,7 +74,7 @@ public class ApplyController
     return response;
   }
   
-  private HttpResponse respondOnApplicationSuccess(Jobseeker jobseeker, Job job, HttpResponse response, ResponseBroker responseBroker)
+  private HttpResponse respondOnApplicationSuccess(Jobseeker jobseeker, Job job, HttpResponse response, HttpResponseBroker responseBroker)
   {
     if(jobseeker.forcedToCompleteProfile(jobseeker.profile))
     {
@@ -81,58 +85,7 @@ public class ApplyController
     responseBroker.provideResponse(response, job.getReponsePayload(), "success");
     return response;
   }
-  
-  //applying for a job
-  private void apply(HttpRequest request,
-                     Jobseeker jobseeker,
-                     Job job,
-                     String fileName)
-  {
-	//find or create resume for jobseeker
-    Resume resume = saveNewOrRetrieveExistingResume(fileName,jobseeker, request);
-    //create an unprocessed application
-    UnprocessedApplication application = new UnprocessedApplication(jobseeker, job, resume);
-    //calling apply to the job application system
-    JobApplicationResult applicationResult = jobApplicationSystem.apply(application);
 
-    //if the application fails, throw an error
-    if (applicationResult.failure())
-    {
-      throw new ApplicationFailureException(applicationResult.toString());
-    }
-  }
-
-  //find or create resume by jobseeker
-  private Resume saveNewOrRetrieveExistingResume(String newResumeFileName,
-                                                 Jobseeker jobseeker,
-                                                 HttpRequest request)
-  {
-	//initialize resume
-    Resume resume;
-
-    // if it doesn't already exists
-    if (!"existing".equals(request.getParameter("whichResume")))
-    {
-      // creates a resume with the given filename
-      resume = resumeManager.saveResume(jobseeker, newResumeFileName);
-
-      //if the resume is not null and the user chooses to make the resume active
-      if (resume != null && "yes".equals(request.getParameter("makeResumeActive")))
-      {
-    	// save resume
-        myResumeManager.saveAsActive(jobseeker, resume);
-      }
-    }
-    //get existing resume
-    else
-    {
-      resume = myResumeManager.getActiveResume(jobseeker.getId());
-    }
-
-    return resume;
-  }
-
-  //inconsistent param types
   private HttpResponse provideInvalidJobResponse(HttpResponse response, final String jobIdString)
   {
 	final int jobId = Integer.parseInt(jobIdString);

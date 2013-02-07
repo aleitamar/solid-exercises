@@ -1,5 +1,16 @@
 package com.theladders.solid.srp.jobseeker;
 
+import java.util.Map;
+
+import com.theladders.solid.srp.ApplyParams;
+import com.theladders.solid.srp.job.Job;
+import com.theladders.solid.srp.job.application.ApplicationFailureException;
+import com.theladders.solid.srp.job.application.JobApplicationResult;
+import com.theladders.solid.srp.job.application.JobApplicationSystem;
+import com.theladders.solid.srp.job.application.UnprocessedApplication;
+import com.theladders.solid.srp.resume.MyResumeManager;
+import com.theladders.solid.srp.resume.Resume;
+
 public class Jobseeker
 {
   public final JobseekerProfile profile;
@@ -14,7 +25,18 @@ public class Jobseeker
     this.jobseekerProfileManager = jobseekerProfileManager;
     this.profile = jobseekerProfileManager.getJobSeekerProfile(this);
   }
-
+  
+  public void apply(Job job, String fileName, Map<String, Boolean> resumeOptions, JobApplicationSystem jobApplicationSystem, MyResumeManager myResumeManager)
+  {
+	Resume resume = myResumeManager.findOrCreateResumeWithOptions(this, resumeOptions, fileName);
+    UnprocessedApplication application = new UnprocessedApplication(this, job, resume);
+    JobApplicationResult applicationResult = jobApplicationSystem.apply(application);
+    
+    if (applicationResult.failure())
+    {
+      throw new ApplicationFailureException(applicationResult.toString());
+    }
+  }
 
   public boolean isPremium()
   {

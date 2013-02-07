@@ -1,11 +1,11 @@
-package com.theladders.solid.srp;
+package com.theladders.solid.srp.http;
 
 import java.util.Map;
 import java.util.List;
 
-import com.theladders.solid.srp.http.HttpResponse;
+import com.theladders.solid.srp.Result;
 
-public class ResponseBroker {  
+public class HttpResponseBroker {  
   public void provideResponse(HttpResponse response, Map<String, Object> model, String response_text)
   {
     Result result = new Result(response_text, model);
