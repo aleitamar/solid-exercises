@@ -13,13 +13,9 @@ public enum ProfileStatus
   SUSPENDED(2002, "Suspended"),
   PENDING_ESCALATED(2228, "Pending Escalated");
 
-  private int    id;
-  private String name;
 
   ProfileStatus(final int id,
                 final String name)
   {
-    this.id = id;
-    this.name = name;
   }
 }

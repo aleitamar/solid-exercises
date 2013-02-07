@@ -8,7 +8,6 @@ public class SuccessfulApplication implements JobApplicationResult
 {
   private final Jobseeker jobseeker;
   private final Job job;
-  private final Resume resume;
 
   public SuccessfulApplication(Jobseeker jobseeker,
                                Job job,
@@ -16,7 +15,6 @@ public class SuccessfulApplication implements JobApplicationResult
   {
     this.jobseeker = jobseeker;
     this.job = job;
-    this.resume = resume;
   }
 
   @Override

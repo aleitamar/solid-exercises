@@ -1,9 +1,7 @@
 package com.theladders.solid.srp.resume;
 
-import java.util.HashMap;
 import java.util.Map;
 
-import com.theladders.solid.srp.http.HttpRequest;
 import com.theladders.solid.srp.jobseeker.Jobseeker;
 
 public class MyResumeManager

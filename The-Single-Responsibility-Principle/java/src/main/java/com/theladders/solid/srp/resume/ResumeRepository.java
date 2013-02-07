@@ -5,8 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.theladders.solid.srp.job.Job;
-
 public class ResumeRepository
 {
   private final Map<Integer, List<Resume>> resumes;

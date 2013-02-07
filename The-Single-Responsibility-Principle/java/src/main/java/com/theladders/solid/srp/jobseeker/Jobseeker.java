@@ -2,7 +2,6 @@ package com.theladders.solid.srp.jobseeker;
 
 import java.util.Map;
 
-import com.theladders.solid.srp.ApplyParams;
 import com.theladders.solid.srp.job.Job;
 import com.theladders.solid.srp.job.application.ApplicationFailureException;
 import com.theladders.solid.srp.job.application.JobApplicationResult;
@@ -16,13 +15,11 @@ public class Jobseeker
   public final JobseekerProfile profile;
   private final int id;
   private final boolean hasPremiumAccount;
-  private final JobseekerProfileManager jobseekerProfileManager;
 
   public Jobseeker(int id, boolean hasPremiumAccount, JobseekerProfileManager jobseekerProfileManager)
   {
     this.id = id;
     this.hasPremiumAccount = hasPremiumAccount;
-    this.jobseekerProfileManager = jobseekerProfileManager;
     this.profile = jobseekerProfileManager.getJobSeekerProfile(this);
   }
   
