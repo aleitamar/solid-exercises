@@ -2,13 +2,13 @@ package com.theladders.solid.srp.jobseeker;
 
 public class JobseekerProfile
 {
-  private final int id;
+  private final Jobseeker jobseeker;
   private final ProfileStatus status;
 
-  public JobseekerProfile(int id, ProfileStatus status)
+  public JobseekerProfile(Jobseeker jobseeker, ProfileStatus status)
   {
-    this.id = id;
     this.status = status;
+    this.jobseeker = jobseeker;
   }
 
   public ProfileStatus getStatus()
@@ -16,9 +16,14 @@ public class JobseekerProfile
     return status;
   }
 
-  public int getId()
+  public int getJobseekerId()
   {
-    return id;
+    return jobseeker.getId();
+  }
+  
+  public Boolean forceCompletion()
+  {
+    return needsCompletion() && !jobseeker.isPremium();
   }
 
   public boolean needsCompletion()

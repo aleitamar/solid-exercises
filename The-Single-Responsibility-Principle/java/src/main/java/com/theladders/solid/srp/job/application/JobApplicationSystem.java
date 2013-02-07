@@ -14,17 +14,12 @@ public class JobApplicationSystem
 
   public JobApplicationResult apply(UnprocessedApplication application)
   {
-    if (application.isValid() &&
-        !repository.applicationExistsFor(application.getJobseeker(), application.getJob()))
+    if (application.isValid())
     {
-
-      SuccessfulApplication success = new SuccessfulApplication(application.getJobseeker(),
-                                                                application.getJob(),
-                                                                application.getResume());
-
-      repository.add(success);
-
-      return success;
+      SuccessfulApplication successfulApplication = new SuccessfulApplication(application.getJobseeker(),
+                                                                              application.getJob(),
+                                                                              application.getResume());
+      if(repository.add(successfulApplication)) { return successfulApplication; }
     }
 
     return new FailedApplication();

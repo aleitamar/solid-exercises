@@ -19,6 +19,6 @@ public class JobseekerProfileRepository
 
   public void addProfile(JobseekerProfile profile)
   {
-    profiles.put(profile.getId(), profile);
+    profiles.put(profile.getJobseekerId(), profile);
   }
 }

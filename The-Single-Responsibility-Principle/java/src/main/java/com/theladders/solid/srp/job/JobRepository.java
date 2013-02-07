@@ -3,6 +3,8 @@ package com.theladders.solid.srp.job;
 import java.util.HashMap;
 import java.util.Map;
 
+// responsibilities
+// - persist jobs (add, retrieve)
 
 public class JobRepository
 {

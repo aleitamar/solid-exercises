@@ -1,5 +1,7 @@
 package com.theladders.solid.srp.job;
 
+// responsibilities
+// - proxy job retrieval from the JobRepository
 
 public class JobSearchService
 {
@@ -13,10 +15,5 @@ public class JobSearchService
   public Job getJob(int jobId)
   {
     return repository.getJob(jobId);
-  }
-
-  public Job getJobByIdString(String idString) {
-    int jobId = Integer.parseInt(idString);
-	return getJob(jobId);
   }
 }

@@ -15,9 +15,14 @@ public class JobApplicationRepository
     this.applications = new ArrayList<>();
   }
 
-  public void add(SuccessfulApplication application)
+  public Boolean add(SuccessfulApplication application)
   {
-    applications.add(application);
+    if(!applicationExistsFor((Jobseeker)application.getJobseeker(), (Job)application.getJob()))
+    {
+      applications.add(application);
+      return true;
+    }
+    return false;
   }
 
   public boolean applicationExistsFor(Jobseeker jobseeker, Job job)

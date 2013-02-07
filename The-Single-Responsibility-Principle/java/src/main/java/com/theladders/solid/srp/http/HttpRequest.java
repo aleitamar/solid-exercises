@@ -2,6 +2,9 @@ package com.theladders.solid.srp.http;
 
 import java.util.Map;
 
+// responsibilities
+// - represents the request and allows for access to attributes 
+
 import com.theladders.solid.srp.jobseeker.Jobseeker;
 
 public class HttpRequest

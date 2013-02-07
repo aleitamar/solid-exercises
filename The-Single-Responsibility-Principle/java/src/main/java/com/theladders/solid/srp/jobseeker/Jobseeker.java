@@ -12,23 +12,23 @@ import com.theladders.solid.srp.resume.Resume;
 
 public class Jobseeker
 {
-  private final JobseekerProfile jobseekerProfile;
+  private final JobseekerProfileManager jobseekerProfileManager;
   private final int id;
-  private final boolean hasPremiumAccount;
+  private final boolean isPremium;
 
-  public Jobseeker(int id, boolean hasPremiumAccount, JobseekerProfileManager jobseekerProfileManager)
+  public Jobseeker(int id, boolean isPremium, JobseekerProfileManager jobseekerProfileManager)
   {
     this.id = id;
-    this.hasPremiumAccount = hasPremiumAccount;
-    this.jobseekerProfile = jobseekerProfileManager.getJobSeekerProfile(this);
+    this.isPremium = isPremium;
+    this.jobseekerProfileManager = jobseekerProfileManager;
   }
-  
+
   public void apply(Job job, String fileName, Map<String, Boolean> resumeOptions, JobApplicationSystem jobApplicationSystem, MyResumeManager myResumeManager)
   {
-	Resume resume = myResumeManager.findOrCreateResumeWithOptions(this, resumeOptions, fileName);
+    Resume resume = myResumeManager.findOrCreateResumeWithOptions(this, resumeOptions, fileName);
     UnprocessedApplication application = new UnprocessedApplication(this, job, resume);
     JobApplicationResult applicationResult = jobApplicationSystem.apply(application);
-    
+
     if (applicationResult.failure())
     {
       throw new ApplicationFailureException(applicationResult.toString());
@@ -37,17 +37,20 @@ public class Jobseeker
 
   public boolean isPremium()
   {
-    return hasPremiumAccount;
+    return isPremium;
   }
-  
-  public boolean forcedToCompleteProfile(JobseekerProfile profile){
-    return !this.hasPremiumAccount && profile.needsCompletion();
-  }
-  
+
   public JobseekerProfile getProfile()
   {
-	  return jobseekerProfile;
+    return jobseekerProfileManager.getJobSeekerProfile(this);
   }
+  
+  public Boolean forcedToCompleteProfile()
+  {
+    getProfile();
+    return getProfile().forceCompletion();
+  }
+  
 
   public int getId()
   {
