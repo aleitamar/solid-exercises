@@ -7,6 +7,7 @@ import java.util.List;
 import com.theladders.solid.srp.http.HttpRequest;
 import com.theladders.solid.srp.http.HttpResponse;
 import com.theladders.solid.srp.http.HttpResponseBroker;
+import com.theladders.solid.srp.http.ResponseStatus;
 import com.theladders.solid.srp.job.JobDecorator;
 import com.theladders.solid.srp.job.JobSearchService;
 import com.theladders.solid.srp.job.application.JobApplicationSystem;
@@ -52,7 +53,7 @@ public class ApplyController
   {
     List<String> errList = new ArrayList<>();
     errList.add(jobApplicationSystem.getJobApplicationFailedMessage());
-    responseBroker.provideResponseWithList(response, jobDecorator.toMap(), "error", errList);
+    responseBroker.provideResponseWithList(response, jobDecorator.toMap(), ResponseStatus.ERROR, errList);
     return response;
   }
 
@@ -60,10 +61,10 @@ public class ApplyController
   {
     if(jobseeker.forcedToCompleteProfile())
     {
-      responseBroker.provideResponse(response, jobDecorator.toMap(), "completeResumePlease");
+      responseBroker.provideResponse(response, jobDecorator.toMap(), ResponseStatus.COMPLETE_RESUME);
       return response;
     }
-    responseBroker.provideResponse(response, jobDecorator.toMap(), "success");
+    responseBroker.provideResponse(response, jobDecorator.toMap(), ResponseStatus.SUCCESS);
     return response;
   }
 
@@ -72,7 +73,7 @@ public class ApplyController
     int jobId = Integer.parseInt(jobIdString);
     HashMap<String, Object > model = new HashMap<>();
     model.put("jobId", jobId);
-    responseBroker.provideResponse(response, model, "invalidJob");
+    responseBroker.provideResponse(response, model, ResponseStatus.INVALID_JOB);
     return response;
   }
 }

@@ -10,15 +10,15 @@ import com.theladders.solid.srp.Result;
 // - builds different types of results and passes them to the http response
 
 public class HttpResponseBroker {  
-  public void provideResponse(HttpResponse response, Map<String, Object> model, String response_text)
+  public void provideResponse(HttpResponse response, Map<String, Object> model, ResponseStatus responseStatus)
   {
-    Result result = new Result(response_text, model);
+    Result result = new Result(responseStatus, model);
     setResult(response, result);
   }
 
-  public void provideResponseWithList(HttpResponse response, Map<String, Object> model, String response_text, List<String> list)
+  public void provideResponseWithList(HttpResponse response, Map<String, Object> model, ResponseStatus responseStatus, List<String> list)
   {
-    Result result = new ErrorResult(response_text, model, list);
+    Result result = new ErrorResult(responseStatus, model, list);
     setResult(response, result);
   }
 

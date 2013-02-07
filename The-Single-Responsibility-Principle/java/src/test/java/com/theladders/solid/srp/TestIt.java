@@ -41,7 +41,6 @@ public class TestIt
   private JobApplicationRepository   jobApplicationRepository;
   private JobseekerProfileRepository jobseekerProfileRepository;
   private ActiveResumeRepository     activeResumeRepository;
-
   private SuccessfulApplication      existingApplication;
 
   @Test
