@@ -14,16 +14,16 @@ import com.theladders.solid.srp.jobseeker.Jobseeker;
 public class ApplyParams {
   private HttpRequest request;
   private JobSearchService jobSearchService;
-  
+
   public ApplyParams(HttpRequest request, JobSearchService jobSearchService)
   {
     this.request = request;
     this.jobSearchService = jobSearchService;
   }
-  
+
   public Jobseeker getJobseeker()
   {
-	return request.getJobseeker();
+    return request.getJobseeker();
   }
 
   public String getJobId()

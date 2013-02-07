@@ -14,8 +14,8 @@ public enum ProfileStatus
   PENDING_ESCALATED(2228, "Pending Escalated");
 
 
-  ProfileStatus(final int id,
-                final String name)
+  ProfileStatus(final int id, final String name) 
   {
   }
 }
+

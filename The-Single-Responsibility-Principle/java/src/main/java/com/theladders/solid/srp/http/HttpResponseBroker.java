@@ -15,14 +15,14 @@ public class HttpResponseBroker {
     Result result = new Result(response_text, model);
     setResult(response, result);
   }
-  
+
   public void provideResponseWithList(HttpResponse response, Map<String, Object> model, String response_text, List<String> list)
   {
     Result result = new ErrorResult(response_text, model, list);
-	setResult(response, result);
+    setResult(response, result);
   }
-  
-  private void setResult(HttpResponse response, Result result){
+
+  private static void setResult(HttpResponse response, Result result){
     response.setResult(result);
   }
 }

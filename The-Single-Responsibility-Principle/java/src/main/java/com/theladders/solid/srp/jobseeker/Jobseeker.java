@@ -44,13 +44,13 @@ public class Jobseeker
   {
     return jobseekerProfileManager.getJobSeekerProfile(this);
   }
-  
+
   public Boolean forcedToCompleteProfile()
   {
     getProfile();
     return getProfile().forceCompletion();
   }
-  
+
 
   public int getId()
   {

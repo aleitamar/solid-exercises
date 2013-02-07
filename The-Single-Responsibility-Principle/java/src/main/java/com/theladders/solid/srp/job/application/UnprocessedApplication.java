@@ -22,8 +22,8 @@ public class UnprocessedApplication
   public boolean isValid()
   {
     return jobseeker != null &&
-           job       != null &&
-           resume    != null;
+        job       != null &&
+        resume    != null;
   }
 
   public Jobseeker getJobseeker()

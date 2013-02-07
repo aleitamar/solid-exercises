@@ -24,9 +24,9 @@ public class JobApplicationSystem
 
     return new FailedApplication();
   }
-  
+
   public String getJobApplicationFailedMessage()
   {
-	return errorMessage;  
+    return errorMessage;  
   }
 }

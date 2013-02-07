@@ -20,7 +20,7 @@ public class JobseekerProfile
   {
     return jobseeker.getId();
   }
-  
+
   public Boolean forceCompletion()
   {
     return needsCompletion() && !jobseeker.isPremium();
@@ -29,7 +29,7 @@ public class JobseekerProfile
   public boolean needsCompletion()
   {
     return (getStatus().equals(ProfileStatus.INCOMPLETE) ||
-	        getStatus().equals(ProfileStatus.NO_PROFILE) ||
-	        getStatus().equals(ProfileStatus.REMOVED));
+        getStatus().equals(ProfileStatus.NO_PROFILE) ||
+        getStatus().equals(ProfileStatus.REMOVED));
   }
 }

@@ -324,7 +324,7 @@ public class TestIt
         status = ProfileStatus.APPROVED;
         break;
     }
-    JobseekerProfile jobseekerProfile = addToJobseekerProfileRepository(jobseeker, status);
+    addToJobseekerProfileRepository(jobseeker, status);
     return jobseeker;
   }
 }

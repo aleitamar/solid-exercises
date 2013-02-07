@@ -22,17 +22,17 @@ public class Result
   {
     return type;
   }
-  
+
   public Map<String, Object> getModel()
   {
     return model;
   }
-  
+
   public Map<String, Object> toMap()
   {
-	Map<String, Object> map = new HashMap<>();
-	map.put("type", type);
-	map.put("type", model);
-	return map;
+    Map<String, Object> map = new HashMap<>();
+    map.put("type", type);
+    map.put("type", model);
+    return map;
   }
 }
