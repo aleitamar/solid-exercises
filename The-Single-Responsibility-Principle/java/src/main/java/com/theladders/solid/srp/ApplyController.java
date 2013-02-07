@@ -24,7 +24,7 @@ public class ApplyController
   //Constructor
   public ApplyController(JobSearchService jobSearchService,
                          JobApplicationSystem jobApplicationSystem,
-                         ResumeManager resumeManager, //huh?
+                         ResumeManager resumeManager,
                          MyResumeManager myResumeManager)
   {
     this.jobSearchService = jobSearchService;
@@ -38,7 +38,6 @@ public class ApplyController
 	ApplyParams applyParams  = new ApplyParams(request, jobSearchService);
     Jobseeker jobseeker      = applyParams.getJobseeker();
     Job job                  = applyParams.getJob();    
-    
     if (job == null)
     {
       return provideInvalidJobResponse(response, request.getParameter("jobId"));
@@ -53,25 +52,24 @@ public class ApplyController
   {
     List<String> errList = new ArrayList<>();
     errList.add(jobApplicationSystem.getJobApplicationFailedMessage());
-    responseBroker.provideResponseWithList(response, job.getReponsePayload(), "error", errList);
+    responseBroker.provideResponseWithList(response, job.toMap(), "error", errList);
     return response;
   }
   
   private HttpResponse respondOnApplicationSuccess(Jobseeker jobseeker, Job job, HttpResponse response, HttpResponseBroker responseBroker)
   {
-    if(jobseeker.forcedToCompleteProfile(jobseeker.profile))
+    if(jobseeker.forcedToCompleteProfile(jobseeker.getProfile()))
     {
-      responseBroker.provideResponse(response, job.getReponsePayload(), "completeResumePlease");
+      responseBroker.provideResponse(response, job.toMap(), "completeResumePlease");
       return response;
     }
-
-    responseBroker.provideResponse(response, job.getReponsePayload(), "success");
+    responseBroker.provideResponse(response, job.toMap(), "success");
     return response;
   }
 
-  private HttpResponse provideInvalidJobResponse(HttpResponse response, final String jobIdString)
+  private HttpResponse provideInvalidJobResponse(HttpResponse response, String jobIdString)
   {
-	final int jobId = Integer.parseInt(jobIdString);
+	int jobId = Integer.parseInt(jobIdString);
     HashMap<String, Object > model = new HashMap<String, Object>();
     model.put("jobId", jobId);
     responseBroker.provideResponse(response, model, "invalidJob");

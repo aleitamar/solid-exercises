@@ -24,7 +24,7 @@ public class Job
     return title;
   }
   
-  public Map<String, Object> getReponsePayload(){
+  public Map<String, Object> toMap(){
     Map<String, Object> model = new HashMap<>();
     model.put("jobId", getJobId());
     model.put("jobTitle", getTitle());

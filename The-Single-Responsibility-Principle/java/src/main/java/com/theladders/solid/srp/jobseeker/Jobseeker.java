@@ -12,7 +12,7 @@ import com.theladders.solid.srp.resume.Resume;
 
 public class Jobseeker
 {
-  public final JobseekerProfile profile;
+  private final JobseekerProfile jobseekerProfile;
   private final int id;
   private final boolean hasPremiumAccount;
 
@@ -20,7 +20,7 @@ public class Jobseeker
   {
     this.id = id;
     this.hasPremiumAccount = hasPremiumAccount;
-    this.profile = jobseekerProfileManager.getJobSeekerProfile(this);
+    this.jobseekerProfile = jobseekerProfileManager.getJobSeekerProfile(this);
   }
   
   public void apply(Job job, String fileName, Map<String, Boolean> resumeOptions, JobApplicationSystem jobApplicationSystem, MyResumeManager myResumeManager)
@@ -42,6 +42,11 @@ public class Jobseeker
   
   public boolean forcedToCompleteProfile(JobseekerProfile profile){
     return !this.hasPremiumAccount && profile.needsCompletion();
+  }
+  
+  public JobseekerProfile getProfile()
+  {
+	  return jobseekerProfile;
   }
 
   public int getId()
