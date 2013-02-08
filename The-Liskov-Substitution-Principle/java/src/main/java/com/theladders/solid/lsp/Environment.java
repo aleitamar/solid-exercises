@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 public class Environment extends HashMap<Object, Object>
 {
+  private static final long serialVersionUID = 7526472295622776147L;  
   public static final String KEY_EMAIL_DOMAIN = "emaildomain";
 
   public Environment()

@@ -36,12 +36,12 @@ public class ApplyParams {
     return jobSearchService.getJob(Integer.parseInt(getJobId()));
   }
 
-  public Boolean isNewResume()
+  public boolean isNewResume()
   {
     return !"existing".equals(request.getParameter("whichResume")); 
   }
 
-  public Boolean shouldMakeResumeActive()
+  public boolean shouldMakeResumeActive()
   {
     return "yes".equals(request.getParameter("makeResumeActive"));
   }

@@ -1,5 +1,6 @@
 package com.theladders.solid.ocp.resume;
 
+import com.theladders.solid.ocp.jobseeker.JobseekerConfidentialityProfile;
 import com.theladders.solid.ocp.user.User;
 
 public class ResumeConfidentialityManager
@@ -11,13 +12,18 @@ public class ResumeConfidentialityManager
     this.confidentialResumeHandler = confidentialResumeHandler;
   }
 
-  public void makeAllContactInfoNonConfidential(User user)
+  public void makeAllContactInfoNonConfidential(JobseekerConfidentialityProfile jobseekerConfidentialityProfile)
   {
-    confidentialResumeHandler.makeAllContactInfoNonConfidential(user);
+    confidentialResumeHandler.makeAllContactInfoNonConfidential(jobseekerConfidentialityProfile);
   }
 
-  public void makeAllCategoriesNonConfidential(User user)
+  public void makeAllCategoriesNonConfidential(JobseekerConfidentialityProfile jobseekerConfidentialityProfile)
   {
-    confidentialResumeHandler.makeAllCategoriesNonConfidential(user);
+    confidentialResumeHandler.makeAllCategoriesNonConfidential(jobseekerConfidentialityProfile);
+  }
+  
+  public boolean isConfidential(User user, ConfidentialPhraseCategory confidentialPhraseCategory)
+  {
+	return confidentialResumeHandler.isConfidential(user, confidentialPhraseCategory);
   }
 }

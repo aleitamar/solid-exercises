@@ -1,0 +1,14 @@
+package com.theladders.solid.ocp;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class OCPTest
+{
+
+  @Test
+  public void shouldDoSomething()
+  {
+	  assertEquals("1", "1");
+  }
+}

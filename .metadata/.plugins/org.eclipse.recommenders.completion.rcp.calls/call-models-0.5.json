@@ -1,0 +1,12 @@
+{
+  "/Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Single-Responsibility-Principle/java/src/main/java": {
+    "location": "/Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Single-Responsibility-Principle/java/src/main/java",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Single-Responsibility-Principle/java/src/main/java\u0027. Skipped."
+  },
+  "/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib/rt.jar": {
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib/rt.jar",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Library/Java/JavaVirtualMachines/jdk1.7.0_13.jdk/Contents/Home/jre/lib/rt.jar\u0027. Skipped."
+  }
+}

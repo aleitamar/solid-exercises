@@ -1,5 +1,6 @@
 package com.theladders.solid.ocp.jobseeker;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -34,6 +35,34 @@ public class JobseekerConfidentialityProfile
     }
 
     return isChanged;
+  }
+  
+  public boolean isConfidential(ConfidentialPhraseCategory confidentialPhraseCategory)
+  {	  
+    boolean isConfidential = false;
+    
+
+    List<ConfidentialPhrase> phrases = this.getConfidentialPhrases(confidentialPhraseCategory);
+    if (phrases != null)
+    {
+      for (ConfidentialPhrase phrase : phrases)
+      {
+        if (phrase.isConfidential())
+        {
+          isConfidential = true;
+        }
+      }
+    }  
+    return isConfidential;
+  }
+  
+  public void setConfidential(ConfidentialPhraseCategory confidentialPhraseCategory)
+  {
+	  ConfidentialPhrase phrase = new ConfidentialPhrase("foo");
+	  phrase.setConfidential(true);
+	  List<ConfidentialPhrase> phrases = new ArrayList();
+	  phrases.add(phrase);
+	  confidentialityProfile.put(confidentialPhraseCategory.name(), phrases);
   }
 
   private List<ConfidentialPhrase> getConfidentialPhrases(ConfidentialPhraseCategory category)

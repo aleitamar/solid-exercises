@@ -14,6 +14,7 @@ import java.util.Set;
 
 public class DynamicEnvironment extends Environment
 {
+  private static final long serialVersionUID = 7526472295622776147L;  
   private final Environment         base;
   private final Map<String, String> keyMap; // map insecure prop names to secure ones
 
