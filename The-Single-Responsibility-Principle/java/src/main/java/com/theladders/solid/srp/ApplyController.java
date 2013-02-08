@@ -1,8 +1,6 @@
 package com.theladders.solid.srp;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 import com.theladders.solid.srp.http.HttpRequest;
 import com.theladders.solid.srp.http.HttpResponse;
@@ -10,6 +8,7 @@ import com.theladders.solid.srp.http.HttpResponseBroker;
 import com.theladders.solid.srp.http.ResponseStatus;
 import com.theladders.solid.srp.job.JobDecorator;
 import com.theladders.solid.srp.job.JobSearchService;
+import com.theladders.solid.srp.job.application.JobApplicationErrorMessages;
 import com.theladders.solid.srp.job.application.JobApplicationSystem;
 import com.theladders.solid.srp.jobseeker.Jobseeker;
 import com.theladders.solid.srp.resume.MyResumeManager;
@@ -51,9 +50,8 @@ public class ApplyController
 
   private HttpResponse respondOnApplicationError(HttpResponse response, JobDecorator jobDecorator)
   {
-    List<String> errList = new ArrayList<>();
-    errList.add(jobApplicationSystem.getJobApplicationFailedMessage());
-    responseBroker.provideResponseWithList(response, jobDecorator.toMap(), ResponseStatus.ERROR, errList);
+	JobApplicationErrorMessages applicationErrorMessages = new JobApplicationErrorMessages();
+    responseBroker.provideResponseWithList(response, jobDecorator.toMap(), ResponseStatus.ERROR, applicationErrorMessages.getGenericErrorList());
     return response;
   }
 

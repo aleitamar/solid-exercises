@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestIt" project="solid-srp" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="com.theladders.solid.srp.TestIt" time="0.002">
+    <testcase name="requestWithValidJob" classname="com.theladders.solid.srp.TestIt" time="0.001"/>
+    <testcase name="requestWithValidJobByBasic" classname="com.theladders.solid.srp.TestIt" time="0.0"/>
+    <testcase name="applyUsingExistingResume" classname="com.theladders.solid.srp.TestIt" time="0.0"/>
+    <testcase name="requestWithInvalidJob" classname="com.theladders.solid.srp.TestIt" time="0.0"/>
+    <testcase name="requestWithNoResume" classname="com.theladders.solid.srp.TestIt" time="0.0"/>
+    <testcase name="reapplyToJob" classname="com.theladders.solid.srp.TestIt" time="0.0"/>
+    <testcase name="unapprovedBasic" classname="com.theladders.solid.srp.TestIt" time="0.0"/>
+    <testcase name="resumeIsSaved" classname="com.theladders.solid.srp.TestIt" time="0.0"/>
+    <testcase name="resumeIsMadeActive" classname="com.theladders.solid.srp.TestIt" time="0.001"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,79 @@
+package com.theladders.solid.srp;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import com.theladders.solid.srp.http.HttpRequest;
+import com.theladders.solid.srp.http.HttpResponse;
+import com.theladders.solid.srp.http.HttpResponseBroker;
+import com.theladders.solid.srp.http.ResponseStatus;
+import com.theladders.solid.srp.job.JobDecorator;
+import com.theladders.solid.srp.job.JobSearchService;
+import com.theladders.solid.srp.job.application.JobApplicationErrorMessages;
+import com.theladders.solid.srp.job.application.JobApplicationSystem;
+import com.theladders.solid.srp.jobseeker.Jobseeker;
+import com.theladders.solid.srp.resume.MyResumeManager;
+
+public class ApplyController
+{
+  private final JobSearchService        jobSearchService;
+  private final JobApplicationSystem    jobApplicationSystem;
+  private final MyResumeManager         myResumeManager;
+  private final HttpResponseBroker      responseBroker;
+
+  //Constructor
+  public ApplyController(JobSearchService jobSearchService,
+                         JobApplicationSystem jobApplicationSystem,
+                         MyResumeManager myResumeManager)
+  {
+    this.jobSearchService     = jobSearchService;
+    this.jobApplicationSystem = jobApplicationSystem;
+    this.myResumeManager      = myResumeManager;
+    this.responseBroker       = new HttpResponseBroker();
+  }
+
+  public HttpResponse handle(HttpRequest request, HttpResponse response, String origFileName)
+  {
+    ApplyParams applyParams   = new ApplyParams(request, jobSearchService);
+    Jobseeker jobseeker       = applyParams.getJobseeker();
+    JobDecorator jobDecorator = new JobDecorator(applyParams.getJob());    
+    if (jobDecorator.model == null)
+    {
+      return provideInvalidJobResponse(response, applyParams.getJobId());
+    }
+    try { 
+      jobseeker.apply(jobDecorator.model, origFileName, applyParams.resumeOptions(), jobApplicationSystem, myResumeManager);
+    }
+    catch (Exception e) { return respondOnApplicationError(response, jobDecorator); }
+
+    return respondOnApplicationSuccess(jobseeker, jobDecorator, response);
+  }
+
+  private HttpResponse respondOnApplicationError(HttpResponse response, JobDecorator jobDecorator)
+  {
+	JobApplicationErrorMessages errList = new JobApplicationErrorMessages();
+    responseBroker.provideResponseWithList(response, jobDecorator.toMap(), ResponseStatus.ERROR, errList.getGenericErrorList());
+    return response;
+  }
+
+  private HttpResponse respondOnApplicationSuccess(Jobseeker jobseeker, JobDecorator jobDecorator, HttpResponse response)
+  {
+    if(jobseeker.forcedToCompleteProfile())
+    {
+      responseBroker.provideResponse(response, jobDecorator.toMap(), ResponseStatus.COMPLETE_RESUME);
+      return response;
+    }
+    responseBroker.provideResponse(response, jobDecorator.toMap(), ResponseStatus.SUCCESS);
+    return response;
+  }
+
+  private HttpResponse provideInvalidJobResponse(HttpResponse response, String jobIdString)
+  {
+    int jobId = Integer.parseInt(jobIdString);
+    HashMap<String, Object > model = new HashMap<>();
+    model.put("jobId", jobId);
+    responseBroker.provideResponse(response, model, ResponseStatus.INVALID_JOB);
+    return response;
+  }
+}
