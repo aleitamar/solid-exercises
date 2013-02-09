@@ -36,11 +36,11 @@ public class JobseekerConfidentialityProfile
 
     return isChanged;
   }
-  
+
   public boolean isConfidential(ConfidentialPhraseCategory confidentialPhraseCategory)
   {	  
     boolean isConfidential = false;
-    
+
 
     List<ConfidentialPhrase> phrases = this.getConfidentialPhrases(confidentialPhraseCategory);
     if (phrases != null)
@@ -55,14 +55,14 @@ public class JobseekerConfidentialityProfile
     }  
     return isConfidential;
   }
-  
+
   public void setConfidential(ConfidentialPhraseCategory confidentialPhraseCategory)
   {
-	  ConfidentialPhrase phrase = new ConfidentialPhrase("foo");
-	  phrase.setConfidential(true);
-	  List<ConfidentialPhrase> phrases = new ArrayList();
-	  phrases.add(phrase);
-	  confidentialityProfile.put(confidentialPhraseCategory.name(), phrases);
+    ConfidentialPhrase phrase = new ConfidentialPhrase("foo");
+    phrase.setConfidential(true);
+    List<ConfidentialPhrase> phrases = new ArrayList<ConfidentialPhrase>();
+    phrases.add(phrase);
+    confidentialityProfile.put(confidentialPhraseCategory.name(), phrases);
   }
 
   private List<ConfidentialPhrase> getConfidentialPhrases(ConfidentialPhraseCategory category)

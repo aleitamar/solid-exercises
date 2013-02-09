@@ -1,9 +1,9 @@
-SCRIPT_AREA_BORDER=\#B05A65 | null | false | false | false | false
-commentBorder=\#AD95AF | null | false | true | false | false
-commentText=\#AD95AF | null | false | true | false | false
+SCRIPT_AREA_BORDER=\#DC322F | null | false | false | false | false
+commentBorder=\#586E75 | null | false | true | false | false
+commentText=\#586E75 | null | false | true | false | false
 eclipse.preferences.version=1
-jsp_content=\#585858 | null | false | false | false | false
-tagAttributeEquals=\#585858 | null | false | false | false | false
-tagAttributeName=\#295F94 | null | false | true | false | false
-tagAttributeValue=\#317ECC | null | false | false | false | false
-tagBorder=\#BC5A65 | null | true | false | false | false
+jsp_content=\#839496 | null | false | false | false | false
+tagAttributeEquals=\#839496 | null | false | false | false | false
+tagAttributeName=\#B58900 | null | false | false | false | false
+tagAttributeValue=\#2AA198 | null | false | false | false | false
+tagBorder=\#678CB1 | null | false | false | false | false

@@ -1,0 +1,11 @@
+package com.theladders.solid.ocp.resume;
+
+public abstract class ResumeDetail extends ResumeSensitiveInformation
+{
+  private String label;
+  
+  public String getName()
+  {
+    return label;
+  }
+}

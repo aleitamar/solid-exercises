@@ -2,6 +2,9 @@ package com.theladders.solid.ocp;
 
 import static org.junit.Assert.assertTrue;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Test;
 
 import com.theladders.solid.ocp.jobseeker.JobseekerConfidentialityProfile;
@@ -15,83 +18,89 @@ import com.theladders.solid.ocp.user.User;
 
 public class OCPTest
 {
-	@Test
-	public void aUserShouldBeAbleToResetConfidentialityForAllCategories()
-	{
-		JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager();
-		JobseekerConfidentialityProfileDao jobseekerConfidentialityProfileDao = new JobseekerConfidentialityProfileDao();
-		ConfidentialResumeHandler confidentialResumeHandler = new ConfidentialResumeHandler(jobseekerProfileManager, jobseekerConfidentialityProfileDao);
-		ResumeConfidentialityManager resumeConfidentialityManager = new ResumeConfidentialityManager(confidentialResumeHandler);
+  @Test
+  public void aUserShouldBeAbleToResetConfidentialityForAllCategories()
+  {
+    JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager();
+    JobseekerConfidentialityProfileDao jobseekerConfidentialityProfileDao = new JobseekerConfidentialityProfileDao();
+    ConfidentialResumeHandler confidentialResumeHandler = new ConfidentialResumeHandler(jobseekerProfileManager, jobseekerConfidentialityProfileDao);
+    ResumeConfidentialityManager resumeConfidentialityManager = new ResumeConfidentialityManager(confidentialResumeHandler);
 
-		int id = 1; // get from command line?
-		User user = new User(id);
-		
-	    JobseekerProfile jobseekerProfile = jobseekerProfileManager.getJobSeekerProfile(user);
-	    JobseekerConfidentialityProfile jobseekerConfidentialityProfile = jobseekerConfidentialityProfileDao.fetchJobSeekerConfidentialityProfile(jobseekerProfile.getId());
-		
-	    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseCategory.Name);
-	    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseCategory.MailingAddress);
-	    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseCategory.PhoneNumber);
-	    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseCategory.EmailAddress);
-	    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseCategory.ContactInfo);
-	    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseCategory.CompanyName);
-	    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseCategory.WorkExperience);
+    int id = 1;
+    User user = new User(id);
 
-		assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.Name));
-		assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.MailingAddress));
-		assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.PhoneNumber));
-		assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.EmailAddress));
-		assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.ContactInfo));
-		assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.CompanyName));
-		assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.WorkExperience));
-		
-	    resumeConfidentialityManager.makeAllCategoriesNonConfidential(jobseekerConfidentialityProfile);
-	    
-	    assertTrue(!jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.Name));
-		assertTrue(!jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.MailingAddress));
-		assertTrue(!jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.PhoneNumber));
-		assertTrue(!jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.EmailAddress));
-		assertTrue(!jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.ContactInfo));
-		assertTrue(!jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.CompanyName));
-		assertTrue(!jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.WorkExperience));
-	}
-	
-		//resumeConfidentialityManager.makeAllContactInfoNonConfidential(user);
+    JobseekerProfile jobseekerProfile = jobseekerProfileManager.getJobSeekerProfile(user);
+    JobseekerConfidentialityProfile jobseekerConfidentialityProfile = jobseekerConfidentialityProfileDao.fetchJobSeekerConfidentialityProfile(jobseekerProfile.getId());
 
+    List<ConfidentialPhraseCategory> categories = getAllPhraseCategories();
 
+    for (ConfidentialPhraseCategory category : categories)
+    {
+      jobseekerConfidentialityProfile.setConfidential(category);
+      assertTrue(jobseekerConfidentialityProfile.isConfidential(category));
+    }
 
-	@Test
-	public void aUserShouldBeAbleToReSetConfidentialityForAllContactInfo(){
-		JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager();
-		JobseekerConfidentialityProfileDao jobseekerConfidentialityProfileDao = new JobseekerConfidentialityProfileDao();
-		ConfidentialResumeHandler confidentialResumeHandler = new ConfidentialResumeHandler(jobseekerProfileManager, jobseekerConfidentialityProfileDao);
-		ResumeConfidentialityManager resumeConfidentialityManager = new ResumeConfidentialityManager(confidentialResumeHandler);
+    resumeConfidentialityManager.makeAllCategoriesNonConfidential(jobseekerConfidentialityProfile);
 
-		int id = 1; // get from command line?
-		User user = new User(id);
-		
-		JobseekerProfile jobseekerProfile = jobseekerProfileManager.getJobSeekerProfile(user);
-	    JobseekerConfidentialityProfile jobseekerConfidentialityProfile = jobseekerConfidentialityProfileDao.fetchJobSeekerConfidentialityProfile(jobseekerProfile.getId());
-		
-	    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseCategory.Name);
-	    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseCategory.MailingAddress);
-	    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseCategory.PhoneNumber);
-	    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseCategory.EmailAddress);
-	    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseCategory.ContactInfo);
+    for (ConfidentialPhraseCategory category : categories)
+    {
+      assertTrue(!jobseekerConfidentialityProfile.isConfidential(category));
+    }
+  }
 
-		assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.Name));
-		assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.MailingAddress));
-		assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.PhoneNumber));
-		assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.EmailAddress));
-		assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.ContactInfo));
-		
-		resumeConfidentialityManager.makeAllContactInfoNonConfidential(jobseekerConfidentialityProfile);
-		
-		assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.Name));
-		assertTrue(!jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.MailingAddress));
-		assertTrue(!jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.PhoneNumber));
-		assertTrue(!jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.EmailAddress));
-		assertTrue(!jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.ContactInfo));
-	}
+  @Test
+  public void aUserShouldBeAbleToReSetConfidentialityForAllContactInfo(){
+    JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager();
+    JobseekerConfidentialityProfileDao jobseekerConfidentialityProfileDao = new JobseekerConfidentialityProfileDao();
+    ConfidentialResumeHandler confidentialResumeHandler = new ConfidentialResumeHandler(jobseekerProfileManager, jobseekerConfidentialityProfileDao);
+    ResumeConfidentialityManager resumeConfidentialityManager = new ResumeConfidentialityManager(confidentialResumeHandler);
+
+    int id = 1;
+    User user = new User(id);
+
+    JobseekerProfile jobseekerProfile = jobseekerProfileManager.getJobSeekerProfile(user);
+    JobseekerConfidentialityProfile jobseekerConfidentialityProfile = jobseekerConfidentialityProfileDao.fetchJobSeekerConfidentialityProfile(jobseekerProfile.getId());
+
+    List<ConfidentialPhraseCategory> categories = getContactInfoPhraseCategories();
+
+    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseCategory.Name);
+    assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.Name));
+    for (ConfidentialPhraseCategory category : categories)
+    {
+      jobseekerConfidentialityProfile.setConfidential(category);
+      assertTrue(jobseekerConfidentialityProfile.isConfidential(category));
+    }
+
+    resumeConfidentialityManager.makeAllContactInfoNonConfidential(jobseekerConfidentialityProfile);
+
+    assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseCategory.Name));
+    for (ConfidentialPhraseCategory category : categories)
+    {
+      assertTrue(!jobseekerConfidentialityProfile.isConfidential(category));
+    }
+  }
+
+  public List<ConfidentialPhraseCategory> getAllPhraseCategories()
+  {
+    List<ConfidentialPhraseCategory> categories = new ArrayList<ConfidentialPhraseCategory>();
+    categories.add(ConfidentialPhraseCategory.Name);
+    categories.add(ConfidentialPhraseCategory.MailingAddress);
+    categories.add(ConfidentialPhraseCategory.PhoneNumber);
+    categories.add(ConfidentialPhraseCategory.EmailAddress);
+    categories.add(ConfidentialPhraseCategory.ContactInfo);
+    categories.add(ConfidentialPhraseCategory.CompanyName);
+    categories.add(ConfidentialPhraseCategory.WorkExperience);
+    return categories;
+  }
+
+  public List<ConfidentialPhraseCategory> getContactInfoPhraseCategories()
+  {
+    List<ConfidentialPhraseCategory> categories = new ArrayList<ConfidentialPhraseCategory>();
+    categories.add(ConfidentialPhraseCategory.MailingAddress);
+    categories.add(ConfidentialPhraseCategory.PhoneNumber);
+    categories.add(ConfidentialPhraseCategory.EmailAddress);
+    categories.add(ConfidentialPhraseCategory.ContactInfo);
+    return categories;
+  }
 
 }

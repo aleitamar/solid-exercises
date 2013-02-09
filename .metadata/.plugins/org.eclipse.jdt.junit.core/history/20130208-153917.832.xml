@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OCPTest" project="solid-ocp" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.theladders.solid.ocp.OCPTest" time="0.001">
+    <testcase name="aUserShouldBeAbleToResetConfidentialityForAllCategories" classname="com.theladders.solid.ocp.OCPTest" time="0.001"/>
+    <testcase name="aUserShouldBeAbleToReSetConfidentialityForAllContactInfo" classname="com.theladders.solid.ocp.OCPTest" time="0.0"/>
+  </testsuite>
+</testrun>
