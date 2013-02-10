@@ -819,3 +819,659 @@ Caused by: java.nio.channels.UnresolvedAddressException: null
 2013-02-09 18:04:16,235 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
 2013-02-09 18:04:16,236 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2013-02-09 18:04:16,237 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:11:54,497 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:11:54,497 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:11:54,498 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:11:54,498 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:12:50,500 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:12:50,500 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:12:50,502 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:12:50,502 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:13:10,600 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:13:10,600 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:13:10,601 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:13:10,601 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:13:23,133 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:13:23,133 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:13:23,134 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:13:23,135 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:13:43,921 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:13:43,921 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:13:43,922 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:13:43,923 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:14:36,993 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:14:36,993 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:14:36,994 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:14:36,994 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:15:20,976 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:15:20,977 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:15:20,979 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:15:20,979 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:15:30,970 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:15:30,970 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:15:30,972 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:15:30,972 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:15:42,300 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:15:42,300 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:15:42,301 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:15:42,301 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:16:10,896 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:16:10,896 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:16:10,897 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:16:10,897 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:16:20,400 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:16:20,400 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:16:20,401 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:16:20,401 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:16:45,557 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:16:45,557 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:16:45,559 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:16:45,559 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:18:16,814 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:18:16,814 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:18:16,815 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:18:16,815 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:18:21,354 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:18:21,354 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:18:21,355 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:18:21,356 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:19:34,423 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:19:34,423 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:19:34,425 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:19:34,425 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:19:50,303 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:19:50,303 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:19:50,304 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:19:50,305 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:21:18,302 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:21:18,302 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:21:18,304 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:21:18,304 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:21:47,032 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:21:47,032 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:21:47,033 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:21:47,033 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:22:08,431 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:22:08,431 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:22:08,432 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:22:08,432 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:23:06,020 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:23:06,020 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:23:06,021 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:23:06,021 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:27:57,242 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:27:57,242 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:27:57,244 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:27:57,244 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:28:05,372 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:28:05,372 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:28:05,374 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:28:05,374 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:28:20,617 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:28:20,617 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:28:20,619 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:28:20,619 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:28:48,792 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:28:48,792 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:28:48,793 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:28:48,793 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:29:02,576 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:29:02,576 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:29:02,577 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:29:02,577 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:30:04,448 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:30:04,448 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:30:04,449 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:30:04,449 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:31:23,723 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:31:23,723 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:31:23,724 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:31:23,724 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:31:35,954 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:31:35,954 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:31:35,955 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:31:35,955 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:32:06,884 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:32:06,884 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:32:06,885 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:32:06,885 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:32:10,226 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:32:10,227 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:32:10,228 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:32:10,228 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:32:50,174 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:32:50,174 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:32:50,175 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:32:50,176 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:33:20,078 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:33:20,078 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:33:20,079 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:33:20,079 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:33:52,598 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:33:52,599 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:33:52,600 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:33:52,600 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:34:35,724 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:34:35,724 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:34:35,725 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:34:35,725 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:35:35,682 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:35:35,682 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:35:35,683 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:35:35,684 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:35:56,864 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:35:56,864 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:35:56,865 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:35:56,865 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:36:09,273 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:36:09,274 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:36:09,275 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:36:09,275 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:37:58,950 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:37:58,951 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:37:58,952 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:37:58,952 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:38:31,439 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:38:31,440 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:38:31,441 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:38:31,441 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:38:57,183 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:38:57,183 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:38:57,184 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:38:57,184 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:39:17,884 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:39:17,884 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:39:17,886 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:39:17,886 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:39:45,312 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:39:45,312 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:39:45,313 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:39:45,313 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:41:25,651 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:41:25,651 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:41:25,652 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:41:25,652 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:42:00,451 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:42:00,451 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:42:00,453 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:42:00,453 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:42:23,690 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:42:23,690 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:42:23,692 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:42:23,692 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:42:42,421 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:42:42,421 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:42:42,422 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:42:42,422 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:43:46,987 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:43:46,987 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:43:46,988 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:43:46,988 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:44:20,052 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:44:20,052 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:44:20,053 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:44:20,053 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:44:46,033 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:44:46,033 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:44:46,034 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:44:46,034 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:44:49,557 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:44:49,557 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:44:49,558 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:44:49,558 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:45:13,411 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:45:13,411 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:45:13,412 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:45:13,412 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:45:17,008 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:45:17,008 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:45:17,010 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:45:17,010 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:45:34,022 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:45:34,023 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:45:34,024 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:45:34,024 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:45:41,785 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:45:41,785 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:45:41,786 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:45:41,786 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:45:45,778 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:45:45,778 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:45:45,780 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:45:45,780 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:45:49,428 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:45:49,428 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:45:49,429 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:45:49,429 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:46:26,761 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:46:26,761 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:46:26,762 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:46:26,762 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:46:48,799 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:46:48,799 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:46:48,801 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:46:48,801 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:46:52,490 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:46:52,490 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:46:52,492 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:46:52,492 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:47:04,397 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:47:04,397 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:47:04,398 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:47:04,399 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:47:15,812 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:47:15,812 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:47:15,813 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:47:15,813 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:47:28,839 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:47:28,840 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:47:28,841 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:47:28,841 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:47:45,886 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:47:45,886 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:47:45,887 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:47:45,887 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:49:35,093 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:49:35,093 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:49:35,094 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:49:35,094 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:51:02,352 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:51:02,352 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:51:02,354 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:51:02,354 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:52:47,900 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:52:47,900 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:52:47,901 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:52:47,901 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:54:34,924 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:54:34,924 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:54:34,926 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:54:34,926 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 18:54:55,818 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:54:55,819 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 18:54:55,820 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 18:54:55,820 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:07:44,998 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:07:44,998 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:07:45,000 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:07:45,000 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:09:25,103 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:09:25,104 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:09:25,105 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:09:25,105 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:09:41,480 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:09:41,480 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:09:41,482 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:09:41,482 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:09:52,152 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:09:52,153 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:09:52,154 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:09:52,154 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:10:22,735 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:10:22,735 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:10:22,736 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:10:22,737 [Worker-159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:11:06,309 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:11:06,310 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:11:06,311 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:11:06,311 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:11:48,708 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:11:48,708 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:11:48,709 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:11:48,709 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:12:26,267 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:12:26,267 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:12:26,270 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:12:26,270 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:13:55,928 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:13:55,928 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:13:55,929 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:13:55,929 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:14:14,118 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:14:14,118 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:14:14,120 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:14:14,120 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:17:57,017 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:17:57,017 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:17:57,019 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:17:57,019 [Worker-166] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:21:19,379 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:21:19,379 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:21:19,381 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:21:19,381 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:21:34,764 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:21:34,764 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:21:34,765 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:21:34,765 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:21:49,935 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:21:49,935 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:21:49,937 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:21:49,937 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:23:22,183 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:23:22,183 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:23:22,184 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:23:22,184 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:23:55,435 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:23:55,435 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:23:55,437 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:23:55,437 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:24:10,833 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:24:10,833 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:24:10,835 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:24:10,835 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:28:07,355 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:28:07,355 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:28:07,356 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:28:07,356 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:28:14,319 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:28:14,319 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:28:14,320 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:28:14,320 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:28:49,835 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:28:49,835 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:28:49,837 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:28:49,837 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:29:08,499 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:29:08,499 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:29:08,501 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:29:08,501 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:30:52,500 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:30:52,500 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:30:52,501 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:30:52,502 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:33:38,503 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:33:38,503 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:33:38,505 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:33:38,505 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:33:45,233 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:33:45,233 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:33:45,234 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:33:45,235 [Worker-175] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:34:42,790 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:34:42,790 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:34:42,791 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:34:42,791 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:35:48,312 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:35:48,313 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:35:48,314 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:35:48,314 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:37:23,697 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:37:23,697 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:37:23,698 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:37:23,699 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:37:28,863 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:37:28,863 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:37:28,864 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:37:28,865 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:38:15,182 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:38:15,183 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:38:15,184 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:38:15,184 [Worker-178] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:38:42,682 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:38:42,682 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:38:42,684 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:38:42,684 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:39:21,345 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:39:21,345 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:39:21,346 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:39:21,347 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:39:36,492 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:39:36,492 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:39:36,493 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:39:36,493 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:43:12,322 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:43:12,322 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:43:12,323 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:43:12,323 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:43:53,599 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:43:53,599 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:43:53,600 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:43:53,600 [Worker-185] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:45:22,170 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:45:22,170 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:45:22,172 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:45:22,172 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:46:47,626 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:46:47,626 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:46:47,627 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:46:47,628 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:47:31,621 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:47:31,621 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:47:31,622 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:47:31,622 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:48:09,263 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:48:09,263 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:48:09,264 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:48:09,264 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:48:18,395 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:48:18,396 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:48:18,397 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:48:18,397 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:48:39,156 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:48:39,156 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:48:39,158 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:48:39,158 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:49:23,051 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:49:23,051 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:49:23,052 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:49:23,052 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:49:30,526 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:49:30,526 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:49:30,527 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:49:30,527 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:49:57,869 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:49:57,869 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:49:57,870 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:49:57,871 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:50:08,844 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:50:08,844 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:50:08,846 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:50:08,846 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:52:33,915 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:52:33,915 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:52:33,916 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:52:33,916 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:52:54,187 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:52:54,187 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:52:54,188 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:52:54,188 [Worker-194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 19:53:12,542 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:53:12,542 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 19:53:12,543 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 19:53:12,543 [Worker-196] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:02:39,312 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:02:39,313 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:02:39,314 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:02:39,314 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:02:54,900 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:02:54,900 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:02:54,901 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:02:54,902 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:03:09,756 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:03:09,756 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:03:09,757 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:03:09,757 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:12:53,275 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:12:53,275 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:12:53,276 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:12:53,276 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:13:21,447 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:13:21,448 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:13:21,449 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:13:21,449 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:14:14,727 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:14:14,728 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:14:14,729 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:14:14,729 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:14:21,291 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:14:21,292 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:14:21,293 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:14:21,293 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:15:26,386 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:15:26,386 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:15:26,387 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:15:26,387 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:16:08,927 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:16:08,928 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:16:08,929 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:16:08,929 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:16:19,903 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:16:19,903 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:16:19,904 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:16:19,904 [Worker-202] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:17:16,785 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:17:16,785 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:17:16,787 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:17:16,787 [Worker-201] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:17:46,223 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:17:46,224 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:17:46,225 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:17:46,225 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:18:15,174 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:18:15,175 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:18:15,176 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:18:15,176 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:18:54,378 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:18:54,378 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:18:54,379 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:18:54,379 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:19:22,233 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:19:22,234 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:19:22,235 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:19:22,235 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:19:54,280 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:19:54,280 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:19:54,282 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:19:54,282 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:20:20,865 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:20:20,866 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:20:20,867 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:20:20,867 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:22:18,578 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:22:18,579 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:22:18,580 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:22:18,580 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:22:28,414 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:22:28,414 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:22:28,417 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:22:28,417 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:22:32,345 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:22:32,345 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:22:32,346 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:22:32,346 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:22:40,740 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:22:40,740 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:22:40,742 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:22:40,742 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:23:17,239 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:23:17,239 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:23:17,241 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:23:17,241 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:23:33,438 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:23:33,438 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:23:33,439 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:23:33,440 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:23:57,178 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:23:57,178 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:23:57,179 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:23:57,179 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:24:01,023 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:24:01,023 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:24:01,024 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:24:01,024 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:24:11,168 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:24:11,169 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:24:11,170 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:24:11,170 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:24:39,078 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:24:39,078 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:24:39,079 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:24:39,079 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:26:30,269 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:26:30,270 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:26:30,271 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:26:30,271 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:26:52,377 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:26:52,377 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:26:52,378 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:26:52,378 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:26:59,954 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:26:59,954 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:26:59,955 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:26:59,955 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:27:33,039 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:27:33,039 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:27:33,040 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:27:33,040 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:27:41,899 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:27:41,899 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:27:41,900 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:27:41,901 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:28:11,884 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:28:11,884 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:28:11,886 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:28:11,886 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:28:26,545 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:28:26,546 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:28:26,547 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:28:26,547 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:29:23,199 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:29:23,199 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:29:23,200 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:29:23,200 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:29:28,101 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:29:28,101 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:29:28,102 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:29:28,102 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:30:08,677 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:30:08,678 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:30:08,679 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:30:08,679 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:30:35,597 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:30:35,598 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:30:35,599 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:30:35,599 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:31:00,722 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:00,722 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:31:00,723 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:00,724 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:31:07,130 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:07,130 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:31:07,131 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:07,131 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:31:15,523 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:15,523 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:31:15,524 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:15,524 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:31:20,454 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:20,454 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:31:20,456 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:20,456 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:31:33,376 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:33,376 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:31:33,377 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:33,378 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:31:41,782 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:41,782 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:31:41,784 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:41,784 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:31:48,892 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:48,892 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:31:48,894 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:48,894 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:31:54,971 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:54,971 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:31:54,972 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:31:54,972 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:32:45,199 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:32:45,199 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:32:45,200 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:32:45,200 [Worker-220] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:33:23,014 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:33:23,014 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:33:23,015 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:33:23,015 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources
+2013-02-09 20:33:50,885 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:33:50,885 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/main/resources
+2013-02-09 20:33:50,887 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-09 20:33:50,887 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Open-Closed-Principle/java/src/test/resources

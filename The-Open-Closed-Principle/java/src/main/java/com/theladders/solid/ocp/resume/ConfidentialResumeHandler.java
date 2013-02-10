@@ -16,47 +16,19 @@ public class ConfidentialResumeHandler
     this.jobseekerConfidentialityProfileDao = jobseekerConfidentialityProfileDao;
   }
 
-  public void makeAllCategoriesNonConfidential(JobseekerConfidentialityProfile jobseekerConfidentialityProfile)
+  public void makePhraseGroupNonConfidential(JobseekerConfidentialityProfile jobseekerConfidentialityProfile,
+                                             ConfidentialPhraseGroup confidentialPhraseGroup)
   {
     boolean isChanged = false;
-    isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategory(ConfidentialPhraseCategory.Name) || isChanged;
-    isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategory(ConfidentialPhraseCategory.PhoneNumber) || isChanged;
-    isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategory(ConfidentialPhraseCategory.EmailAddress) || isChanged;
-    isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategory(ConfidentialPhraseCategory.MailingAddress) || isChanged;
-    isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategory(ConfidentialPhraseCategory.ContactInfo) || isChanged;
-    isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategory(ConfidentialPhraseCategory.CompanyName) || isChanged;
-    isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategory(ConfidentialPhraseCategory.WorkExperience) || isChanged;
-
-    if (isChanged)
-    {
-      //generatePermanentConfidentialFiles(user, jobseekerConfidentialityProfile);
-    }
+    isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategoryGroup(ConfidentialPhraseGroup.ALL);
+    if (isChanged) { }
   }
 
-  public void makeAllContactInfoNonConfidential(JobseekerConfidentialityProfile jobseekerConfidentialityProfile)
-  {
-    boolean isChanged = false;
-    isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategory(ConfidentialPhraseCategory.PhoneNumber) || isChanged;
-    isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategory(ConfidentialPhraseCategory.EmailAddress) || isChanged;
-    isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategory(ConfidentialPhraseCategory.MailingAddress) || isChanged;
-    isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategory(ConfidentialPhraseCategory.ContactInfo) || isChanged;
-
-    if (isChanged)
-    {
-      //generatePermanentConfidentialFiles(user, jobseekerConfidentialityProfile);
-    }
-  }
- 
-  public boolean isConfidential(User user, ConfidentialPhraseCategory confidentialPhraseCategory){
+  public boolean isConfidential(User user, ConfidentialPhraseItem confidentialPhraseItem){
     JobseekerProfile jobseekerProfile = jobSeekerProfileManager.getJobSeekerProfile(user);
     JobseekerConfidentialityProfile jobseekerConfidentialityProfile = jobseekerConfidentialityProfileDao.fetchJobSeekerConfidentialityProfile(jobseekerProfile.getId());
     
-    return jobseekerConfidentialityProfile.isConfidential(confidentialPhraseCategory);
+    return jobseekerConfidentialityProfile.isConfidential(confidentialPhraseItem);
     
-  }
-
-  private void generatePermanentConfidentialFiles(User user, JobseekerConfidentialityProfile profile)
-  {
-    // stub
   }
 }

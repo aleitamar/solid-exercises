@@ -12,18 +12,15 @@ public class ResumeConfidentialityManager
     this.confidentialResumeHandler = confidentialResumeHandler;
   }
 
-  public void makeAllContactInfoNonConfidential(JobseekerConfidentialityProfile jobseekerConfidentialityProfile)
+  public void makePhraseGroupNonConfidential(JobseekerConfidentialityProfile jobseekerConfidentialityProfile,
+                                             ConfidentialPhraseGroup confidentailPhraseCategoryGroup)
   {
-    confidentialResumeHandler.makeAllContactInfoNonConfidential(jobseekerConfidentialityProfile);
+    confidentialResumeHandler.makePhraseGroupNonConfidential(jobseekerConfidentialityProfile,
+                                                             confidentailPhraseCategoryGroup);
   }
 
-  public void makeAllCategoriesNonConfidential(JobseekerConfidentialityProfile jobseekerConfidentialityProfile)
+  public boolean isConfidential(User user, ConfidentialPhraseItem confidentialPhraseItem)
   {
-    confidentialResumeHandler.makeAllCategoriesNonConfidential(jobseekerConfidentialityProfile);
-  }
-  
-  public boolean isConfidential(User user, ConfidentialPhraseCategory confidentialPhraseCategory)
-  {
-	return confidentialResumeHandler.isConfidential(user, confidentialPhraseCategory);
+    return confidentialResumeHandler.isConfidential(user, confidentialPhraseItem);
   }
 }

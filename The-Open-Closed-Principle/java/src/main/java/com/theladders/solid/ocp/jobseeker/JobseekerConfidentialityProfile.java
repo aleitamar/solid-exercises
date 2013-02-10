@@ -6,7 +6,8 @@ import java.util.List;
 import java.util.Map;
 
 import com.theladders.solid.ocp.resume.ConfidentialPhrase;
-import com.theladders.solid.ocp.resume.ConfidentialPhraseCategory;
+import com.theladders.solid.ocp.resume.ConfidentialPhraseItem;
+import com.theladders.solid.ocp.resume.ConfidentialPhraseGroup;
 
 public class JobseekerConfidentialityProfile
 {
@@ -16,33 +17,36 @@ public class JobseekerConfidentialityProfile
   {
     confidentialityProfile = new HashMap<>();
   }
+  
 
-  public boolean resetConfidentialFlagsForCategory(ConfidentialPhraseCategory category)
+  public boolean resetConfidentialFlagsForCategoryGroup(ConfidentialPhraseGroup categoryGroup)
   {
     boolean isChanged = false;
 
-    List<ConfidentialPhrase> phrases = this.getConfidentialPhrases(category);
-    if (phrases != null)
+    for(ConfidentialPhraseItem confidentailPhraseItem : categoryGroup.getConfidentialPhrases())
     {
-      for (ConfidentialPhrase phrase : phrases)
+      List<ConfidentialPhrase> phrases = this.getConfidentialPhrases(confidentailPhraseItem);
+      if (phrases != null)
       {
-        if (phrase.isConfidential())
+        for (ConfidentialPhrase phrase : phrases)
         {
-          phrase.setConfidential(false);
-          isChanged = true;
+          if (phrase.isConfidential())
+          {
+            phrase.setConfidential(false);
+            isChanged = true;
+          }
         }
       }
     }
-
     return isChanged;
   }
 
-  public boolean isConfidential(ConfidentialPhraseCategory confidentialPhraseCategory)
+  public boolean isConfidential(ConfidentialPhraseItem confidentialPhraseItem)
   {	  
     boolean isConfidential = false;
 
 
-    List<ConfidentialPhrase> phrases = this.getConfidentialPhrases(confidentialPhraseCategory);
+    List<ConfidentialPhrase> phrases = this.getConfidentialPhrases(confidentialPhraseItem);
     if (phrases != null)
     {
       for (ConfidentialPhrase phrase : phrases)
@@ -56,17 +60,17 @@ public class JobseekerConfidentialityProfile
     return isConfidential;
   }
 
-  public void setConfidential(ConfidentialPhraseCategory confidentialPhraseCategory)
+  public void setConfidential(ConfidentialPhraseItem confidentialPhraseItem)
   {
-    ConfidentialPhrase phrase = new ConfidentialPhrase("foo");
+    ConfidentialPhrase phrase = new ConfidentialPhrase();
     phrase.setConfidential(true);
     List<ConfidentialPhrase> phrases = new ArrayList<ConfidentialPhrase>();
     phrases.add(phrase);
-    confidentialityProfile.put(confidentialPhraseCategory.name(), phrases);
+    confidentialityProfile.put(confidentialPhraseItem.name(), phrases);
   }
 
-  private List<ConfidentialPhrase> getConfidentialPhrases(ConfidentialPhraseCategory category)
+  private List<ConfidentialPhrase> getConfidentialPhrases(ConfidentialPhraseItem item)
   {
-    return confidentialityProfile.get(category.name());
+    return confidentialityProfile.get(item.name());
   }
 }
