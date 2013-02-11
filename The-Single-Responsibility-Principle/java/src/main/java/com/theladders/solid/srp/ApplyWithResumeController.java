@@ -8,22 +8,22 @@ import com.theladders.solid.srp.job.JobSearchService;
 import com.theladders.solid.srp.job.application.JobApplicationSystem;
 import com.theladders.solid.srp.jobseeker.Jobseeker;
 import com.theladders.solid.srp.jobseeker.JobseekerApplicationSystem;
-import com.theladders.solid.srp.resume.MyResumeManager;
+import com.theladders.solid.srp.resume.ResumeManager;
 
 public class ApplyWithResumeController
 {
   private final JobSearchService        jobSearchService;
   private final JobApplicationSystem    jobApplicationSystem;
-  private final MyResumeManager         myResumeManager;
+  private final ResumeManager         resumeManager;
   private final ApplyResponder          applyResponder;
 
   public ApplyWithResumeController(JobSearchService jobSearchService,
                          JobApplicationSystem jobApplicationSystem,
-                         MyResumeManager myResumeManager)
+                         ResumeManager resumeManager)
   {
     this.jobSearchService     = jobSearchService;
     this.jobApplicationSystem = jobApplicationSystem;
-    this.myResumeManager      = myResumeManager;
+    this.resumeManager      = resumeManager;
     this.applyResponder       = new ApplyResponder();
   }
 
@@ -37,7 +37,7 @@ public class ApplyWithResumeController
     
     try { 
       JobseekerApplicationSystem jobseekerApplicationSystem = new JobseekerApplicationSystem(jobseeker);
-      jobseekerApplicationSystem.applyWithResume(jobDecorator.model, jobApplicationSystem, myResumeManager);
+      jobseekerApplicationSystem.applyWithResume(jobDecorator.model, jobApplicationSystem, resumeManager);
     }
     catch (Exception e) { return applyResponder.respondOnApplicationError(response, jobDecorator); }
 

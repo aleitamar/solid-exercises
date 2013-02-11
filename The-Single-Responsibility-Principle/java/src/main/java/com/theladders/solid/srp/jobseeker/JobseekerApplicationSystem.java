@@ -7,7 +7,7 @@ import com.theladders.solid.srp.job.application.ApplicationFailureException;
 import com.theladders.solid.srp.job.application.JobApplicationResult;
 import com.theladders.solid.srp.job.application.JobApplicationSystem;
 import com.theladders.solid.srp.job.application.UnprocessedApplication;
-import com.theladders.solid.srp.resume.MyResumeManager;
+import com.theladders.solid.srp.resume.ResumeManager;
 import com.theladders.solid.srp.resume.Resume;
 
 public class JobseekerApplicationSystem
@@ -21,9 +21,9 @@ public class JobseekerApplicationSystem
 
   public void applyWithResume(Job job,
                               JobApplicationSystem jobApplicationSystem,
-                              MyResumeManager myResumeManager)
+                              ResumeManager resumeManager)
   {
-    Resume resume = myResumeManager.getActiveResume(jobseeker);
+    Resume resume = resumeManager.getActiveResume(jobseeker);
     JobApplicationResult jobApplicationResult = apply(resume, job, jobApplicationSystem);
     if(jobApplicationResult.failure())
     {
@@ -33,11 +33,11 @@ public class JobseekerApplicationSystem
 
   public void applyWithFile(Job job,
                             JobApplicationSystem jobApplicationSystem,
-                            MyResumeManager myResumeManager,
+                            ResumeManager resumeManager,
                             Map<String, Boolean> resumeOptions,
                             String fileName)
   {
-    Resume resume = myResumeManager.createResumeWithOptions(jobseeker, resumeOptions, fileName);
+    Resume resume = resumeManager.createResumeWithOptions(jobseeker, resumeOptions, fileName);
     JobApplicationResult jobApplicationResult = apply(resume, job, jobApplicationSystem);
     if(jobApplicationResult.failure())
     {

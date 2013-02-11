@@ -32,7 +32,6 @@ INDEX VERSION 1.126+/Users/tsymborski/projects/onboarding/day2/solid-exercises/.
 4242647473.index
 2545238116.index
 3522892629.index
-3682934528.index
 3302703152.index
 698413945.index
 1771571277.index
