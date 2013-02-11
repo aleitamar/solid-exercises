@@ -7,15 +7,18 @@ public class Job
 {
   private final int id;
 
+
   public Job(int id)
   {
     this.id = id;
   }
 
+
   public int getJobId()
   {
     return id;
   }
+
 
   @Override
   public int hashCode()
@@ -25,6 +28,7 @@ public class Job
     result = prime * result + id;
     return result;
   }
+
 
   @Override
   public boolean equals(Object obj)

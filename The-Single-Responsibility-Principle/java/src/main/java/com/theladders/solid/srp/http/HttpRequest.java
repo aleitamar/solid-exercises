@@ -3,31 +3,35 @@ package com.theladders.solid.srp.http;
 import java.util.Map;
 
 // responsibilities
-// - represents the request and allows for access to attributes 
+// - represents the request and allows for access to attributes
 
 import com.theladders.solid.srp.jobseeker.Jobseeker;
 
 public class HttpRequest
 {
-  private final HttpSession session;
+  private final HttpSession         session;
   private final Map<String, String> parameters;
 
+
   public HttpRequest(HttpSession session,
-                     Map<String,String> parameters)
+                     Map<String, String> parameters)
   {
     this.session = session;
     this.parameters = parameters;
   }
 
+
   public HttpSession getSession()
   {
     return session;
   }
-  
+
+
   public Jobseeker getJobseeker()
   {
-	  return session.getJobseeker();
+    return session.getJobseeker();
   }
+
 
   public String getParameter(String key)
   {

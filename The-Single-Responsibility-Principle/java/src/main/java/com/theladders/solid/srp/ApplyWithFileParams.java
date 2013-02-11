@@ -8,15 +8,18 @@ import com.theladders.solid.srp.job.JobSearchService;
 
 public class ApplyWithFileParams extends ApplyParams
 {
-  public ApplyWithFileParams(HttpRequest request, JobSearchService jobSearchService)
+  public ApplyWithFileParams(HttpRequest request,
+                             JobSearchService jobSearchService)
   {
     super(request, jobSearchService);
   }
+
 
   public boolean shouldMakeResumeActive()
   {
     return "yes".equals(request.getParameter("makeResumeActive"));
   }
+
 
   public Map<String, Boolean> resumeOptions()
   {

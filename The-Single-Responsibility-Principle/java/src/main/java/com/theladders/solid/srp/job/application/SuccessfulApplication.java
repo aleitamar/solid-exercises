@@ -7,8 +7,9 @@ import com.theladders.solid.srp.resume.Resume;
 public class SuccessfulApplication implements JobApplicationResult
 {
   private final Jobseeker jobseeker;
-  private final Job job;
-  private final Resume resume;
+  private final Job       job;
+  private final Resume    resume;
+
 
   public SuccessfulApplication(Jobseeker jobseeker,
                                Job job,
@@ -19,21 +20,25 @@ public class SuccessfulApplication implements JobApplicationResult
     this.resume = resume;
   }
 
+
   @Override
   public boolean failure()
   {
     return false;
   }
 
+
   public Object getJobseeker()
   {
     return jobseeker;
   }
 
+
   public Object getJob()
   {
     return job;
   }
+
 
   public Object getResume()
   {

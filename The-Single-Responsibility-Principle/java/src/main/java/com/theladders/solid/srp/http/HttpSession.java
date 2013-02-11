@@ -9,10 +9,12 @@ public class HttpSession
 {
   private final Jobseeker jobseeker;
 
+
   public HttpSession(Jobseeker jobseeker)
   {
     this.jobseeker = jobseeker;
   }
+
 
   public Jobseeker getJobseeker()
   {

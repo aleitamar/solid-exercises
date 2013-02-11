@@ -3,25 +3,31 @@ package com.theladders.solid.srp.jobseeker;
 public class Jobseeker
 {
   private final JobseekerProfileManager jobseekerProfileManager;
-  private final int id;
-  private final boolean isPremium;
+  private final int                     id;
+  private final boolean                 isPremium;
 
-  public Jobseeker(int id, boolean isPremium, JobseekerProfileManager jobseekerProfileManager)
+
+  public Jobseeker(int id,
+                   boolean isPremium,
+                   JobseekerProfileManager jobseekerProfileManager)
   {
     this.id = id;
     this.isPremium = isPremium;
     this.jobseekerProfileManager = jobseekerProfileManager;
   }
 
+
   public boolean isPremium()
   {
     return isPremium;
   }
 
+
   public JobseekerProfile getProfile()
   {
     return jobseekerProfileManager.getJobSeekerProfile(this);
   }
+
 
   public Boolean forcedToCompleteProfile()
   {
@@ -35,6 +41,7 @@ public class Jobseeker
     return id;
   }
 
+
   @Override
   public int hashCode()
   {
@@ -43,6 +50,7 @@ public class Jobseeker
     result = prime * result + id;
     return result;
   }
+
 
   @Override
   public boolean equals(Object obj)

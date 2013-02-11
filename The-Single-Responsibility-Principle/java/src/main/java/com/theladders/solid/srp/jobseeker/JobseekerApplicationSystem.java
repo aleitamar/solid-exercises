@@ -14,10 +14,12 @@ public class JobseekerApplicationSystem
 {
   private final Jobseeker jobseeker;
 
+
   public JobseekerApplicationSystem(Jobseeker jobseeker)
   {
     this.jobseeker = jobseeker;
   }
+
 
   public void applyWithResume(Job job,
                               JobApplicationSystem jobApplicationSystem,
@@ -25,11 +27,12 @@ public class JobseekerApplicationSystem
   {
     Resume resume = resumeManager.getActiveResume(jobseeker);
     JobApplicationResult jobApplicationResult = apply(resume, job, jobApplicationSystem);
-    if(jobApplicationResult.failure())
+    if (jobApplicationResult.failure())
     {
       raiseApplicationFailureException(jobApplicationResult);
     }
   }
+
 
   public void applyWithFile(Job job,
                             JobApplicationSystem jobApplicationSystem,
@@ -39,19 +42,23 @@ public class JobseekerApplicationSystem
   {
     Resume resume = resumeManager.createResumeWithOptions(jobseeker, resumeOptions, fileName);
     JobApplicationResult jobApplicationResult = apply(resume, job, jobApplicationSystem);
-    if(jobApplicationResult.failure())
+    if (jobApplicationResult.failure())
     {
       resume.destroy();
       raiseApplicationFailureException(jobApplicationResult);
     }
   }
 
-  private JobApplicationResult apply(Resume resume, Job job, JobApplicationSystem jobApplicationSystem)
+
+  private JobApplicationResult apply(Resume resume,
+                                     Job job,
+                                     JobApplicationSystem jobApplicationSystem)
   {
     UnprocessedApplication application = new UnprocessedApplication(jobseeker, job, resume);
     JobApplicationResult applicationResult = jobApplicationSystem.apply(application);
     return applicationResult;
   }
+
 
   private void raiseApplicationFailureException(JobApplicationResult jobApplicationResult)
   {

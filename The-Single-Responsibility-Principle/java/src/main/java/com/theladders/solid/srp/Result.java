@@ -10,24 +10,29 @@ import com.theladders.solid.srp.http.ResponseStatus;
 
 public class Result
 {
-  private final ResponseStatus responseStatus;
+  private final ResponseStatus      responseStatus;
   private final Map<String, Object> model;
 
-  public Result(ResponseStatus responseStatus, Map<String, Object> model)
+
+  public Result(ResponseStatus responseStatus,
+                Map<String, Object> model)
   {
-    this.responseStatus  = responseStatus;
+    this.responseStatus = responseStatus;
     this.model = model;
   }
+
 
   public String getType()
   {
     return responseStatus.getStatusString();
   }
 
+
   public Map<String, Object> getModel()
   {
     return model;
   }
+
 
   public Map<String, Object> toMap()
   {

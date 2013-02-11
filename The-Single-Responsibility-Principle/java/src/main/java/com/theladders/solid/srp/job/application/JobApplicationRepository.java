@@ -10,14 +10,16 @@ public class JobApplicationRepository
 {
   private final List<SuccessfulApplication> applications;
 
+
   public JobApplicationRepository()
   {
     this.applications = new ArrayList<>();
   }
 
+
   public Boolean add(SuccessfulApplication application)
   {
-    if(!applicationExistsFor((Jobseeker)application.getJobseeker(), (Job)application.getJob()))
+    if (!applicationExistsFor((Jobseeker) application.getJobseeker(), (Job) application.getJob()))
     {
       applications.add(application);
       return true;
@@ -25,12 +27,13 @@ public class JobApplicationRepository
     return false;
   }
 
-  public boolean applicationExistsFor(Jobseeker jobseeker, Job job)
+
+  public boolean applicationExistsFor(Jobseeker jobseeker,
+                                      Job job)
   {
-    for(SuccessfulApplication application : applications)
+    for (SuccessfulApplication application : applications)
     {
-      if (application.getJobseeker().equals(jobseeker) &&
-          application.getJob().equals(job))
+      if (application.getJobseeker().equals(jobseeker) && application.getJob().equals(job))
       {
         return true;
       }

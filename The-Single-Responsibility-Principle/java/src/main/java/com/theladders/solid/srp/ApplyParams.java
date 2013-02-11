@@ -7,24 +7,29 @@ import com.theladders.solid.srp.jobseeker.Jobseeker;
 
 public abstract class ApplyParams
 {
-  protected HttpRequest request;
+  protected HttpRequest      request;
   protected JobSearchService jobSearchService;
 
-  public ApplyParams(HttpRequest request, JobSearchService jobSearchService)
+
+  public ApplyParams(HttpRequest request,
+                     JobSearchService jobSearchService)
   {
     this.request = request;
     this.jobSearchService = jobSearchService;
   }
+
 
   public Jobseeker getJobseeker()
   {
     return request.getJobseeker();
   }
 
+
   public String getJobId()
   {
     return request.getParameter("jobId");
   }
+
 
   public Job getJob()
   {

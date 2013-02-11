@@ -9,32 +9,39 @@ public class ResumeRepository
 {
   private final Map<Integer, List<Resume>> resumes;
 
+
   public ResumeRepository()
   {
     this.resumes = new HashMap<>();
   }
 
-  public Resume saveResume(int jobseekerId, Resume resume)
+
+  public Resume saveResume(int jobseekerId,
+                           Resume resume)
   {
     addResumeForJobseeker(jobseekerId, resume);
 
     return resume;
   }
 
+
   public boolean contains(Resume aResume)
   {
-    for(int key : resumes.keySet())
+    for (int key : resumes.keySet())
     {
-      for(Resume resume : resumes.get(key))
+      for (Resume resume : resumes.get(key))
       {
-        if (aResume.equals(resume)) return true;
+        if (aResume.equals(resume))
+          return true;
       }
     }
 
     return false;
   }
 
-  private void addResumeForJobseeker(int jobseekerId, Resume resume)
+
+  private void addResumeForJobseeker(int jobseekerId,
+                                     Resume resume)
   {
     List<Resume> jsResumes = resumes.get(jobseekerId);
 

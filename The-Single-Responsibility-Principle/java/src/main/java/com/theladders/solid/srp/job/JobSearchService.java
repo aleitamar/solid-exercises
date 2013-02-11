@@ -7,10 +7,12 @@ public class JobSearchService
 {
   private final JobRepository repository;
 
+
   public JobSearchService(JobRepository repository)
   {
     this.repository = repository;
   }
+
 
   public Job getJob(int jobId)
   {

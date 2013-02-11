@@ -12,22 +12,31 @@ import com.theladders.solid.srp.jobseeker.Jobseeker;
 public class ApplyResponder
 {
   private final HttpResponseBroker responseBroker;
-  
+
+
   public ApplyResponder()
   {
     this.responseBroker = new HttpResponseBroker();
   }
+
+
   public HttpResponse respondOnApplicationError(HttpResponse response,
                                                 JobDecorator jobDecorator)
   {
     JobApplicationErrorMessages applicationErrorMessages = new JobApplicationErrorMessages();
-    responseBroker.provideResponseWithList(response, jobDecorator.toMap(), ResponseStatus.ERROR, applicationErrorMessages.getGenericErrorList());
+    responseBroker.provideResponseWithList(response,
+                                           jobDecorator.toMap(),
+                                           ResponseStatus.ERROR,
+                                           applicationErrorMessages.getGenericErrorList());
     return response;
   }
-  
-  public HttpResponse respondOnApplicationSuccess(Jobseeker jobseeker, JobDecorator jobDecorator, HttpResponse response)
+
+
+  public HttpResponse respondOnApplicationSuccess(Jobseeker jobseeker,
+                                                  JobDecorator jobDecorator,
+                                                  HttpResponse response)
   {
-    if(jobseeker.forcedToCompleteProfile())
+    if (jobseeker.forcedToCompleteProfile())
     {
       responseBroker.provideResponse(response, jobDecorator.toMap(), ResponseStatus.COMPLETE_RESUME);
       return response;
@@ -35,11 +44,13 @@ public class ApplyResponder
     responseBroker.provideResponse(response, jobDecorator.toMap(), ResponseStatus.SUCCESS);
     return response;
   }
-  
-  public HttpResponse provideInvalidJobResponse(HttpResponse response, String jobIdString)
+
+
+  public HttpResponse provideInvalidJobResponse(HttpResponse response,
+                                                String jobIdString)
   {
     int jobId = Integer.parseInt(jobIdString);
-    HashMap<String, Object > model = new HashMap<>();
+    HashMap<String, Object> model = new HashMap<>();
     model.put("jobId", jobId);
     responseBroker.provideResponse(response, model, ResponseStatus.INVALID_JOB);
     return response;

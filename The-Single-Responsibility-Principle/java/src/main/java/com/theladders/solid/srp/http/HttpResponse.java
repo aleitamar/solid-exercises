@@ -9,10 +9,12 @@ public class HttpResponse
 {
   private Result result;
 
+
   public String getResultType()
   {
     return result.getType();
   }
+
 
   public void setResult(Result result)
   {

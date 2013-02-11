@@ -1,7 +1,7 @@
 package com.theladders.solid.srp.jobseeker;
 
 public enum ProfileStatus
-{ 
+{
   INCOMPLETE(17, "Incomplete"),
   APPROVED(18, "Approved"),
   PENDING(22, "Pending"),
@@ -12,20 +12,24 @@ public enum ProfileStatus
   DELETED(2001, "Deleted"),
   SUSPENDED(2002, "Suspended"),
   PENDING_ESCALATED(2228, "Pending Escalated");
-  
-  public final int id;
+
+  public final int    id;
   public final String name;
 
-  ProfileStatus(final int id, final String name) 
+
+  ProfileStatus(final int id,
+                final String name)
   {
-    this.id   = id;
+    this.id = id;
     this.name = name;
   }
+
 
   public int getId()
   {
     return id;
   }
+
 
   public String getName()
   {

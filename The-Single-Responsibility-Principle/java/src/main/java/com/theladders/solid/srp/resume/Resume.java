@@ -4,6 +4,7 @@ public class Resume
 {
   private final String resumeName;
 
+
   public Resume(String resumeName)
   {
     if (resumeName == null || resumeName.equals(""))
@@ -14,6 +15,7 @@ public class Resume
     this.resumeName = resumeName;
   }
 
+
   @Override
   public int hashCode()
   {
@@ -22,6 +24,7 @@ public class Resume
     result = prime * result + ((resumeName == null) ? 0 : resumeName.hashCode());
     return result;
   }
+
 
   @Override
   public boolean equals(Object obj)
@@ -43,8 +46,9 @@ public class Resume
     return true;
   }
 
+
   public void destroy()
   {
-   //die 
+    // die
   }
 }

@@ -6,20 +6,25 @@ import java.util.Map;
 // responsibilities
 // - represents a decorated version of a job for display
 
-public class JobDecorator {
+public class JobDecorator
+{
   public final Job model;
+
 
   public JobDecorator(Job job)
   {
     this.model = job;
   }
 
-  public Map<String, Object> toMap(){
+
+  public Map<String, Object> toMap()
+  {
     Map<String, Object> map = new HashMap<>();
     map.put("jobId", model.getJobId());
     map.put("jobTitle", getTitle());
     return map;
   }
+
 
   public String getTitle()
   {
