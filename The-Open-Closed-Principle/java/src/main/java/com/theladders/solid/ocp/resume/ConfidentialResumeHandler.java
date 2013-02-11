@@ -19,9 +19,8 @@ public class ConfidentialResumeHandler
   public void makePhraseGroupNonConfidential(JobseekerConfidentialityProfile jobseekerConfidentialityProfile,
                                              ConfidentialPhraseGroup confidentialPhraseGroup)
   {
-    boolean isChanged = false;
-    isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategoryGroup(ConfidentialPhraseGroup.ALL);
-    if (isChanged) { }
+    boolean isChanged = jobseekerConfidentialityProfile.resetConfidentialFlagsForCategoryGroup(confidentialPhraseGroup);
+    if (isChanged) { doSomething(); }
   }
 
   public boolean isConfidential(User user, ConfidentialPhraseItem confidentialPhraseItem){
@@ -31,4 +30,6 @@ public class ConfidentialResumeHandler
     return jobseekerConfidentialityProfile.isConfidential(confidentialPhraseItem);
     
   }
+  
+  private void doSomething() {}
 }

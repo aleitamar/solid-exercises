@@ -62,9 +62,12 @@ public class OCPTest
 
     JobseekerProfile jobseekerProfile = jobseekerProfileManager.getJobSeekerProfile(user);
     JobseekerConfidentialityProfile jobseekerConfidentialityProfile = jobseekerConfidentialityProfileDao.fetchJobSeekerConfidentialityProfile(jobseekerProfile.getId());
+    
+    
 
+    jobseekerConfidentialityProfile.setConfidential(ConfidentialPhraseItem.Name);
+    assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseItem.Name));
     List<ConfidentialPhraseItem> categories = getContactInfoPhraseCategories();
-
     for (ConfidentialPhraseItem category : categories)
     {
       jobseekerConfidentialityProfile.setConfidential(category);
@@ -74,6 +77,7 @@ public class OCPTest
     resumeConfidentialityManager.makePhraseGroupNonConfidential(jobseekerConfidentialityProfile,
                                                                 ConfidentialPhraseGroup.CONTACT_INFO);
 
+    assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseItem.Name));
     for (ConfidentialPhraseItem category : categories)
     {
       assertTrue(!jobseekerConfidentialityProfile.isConfidential(category));

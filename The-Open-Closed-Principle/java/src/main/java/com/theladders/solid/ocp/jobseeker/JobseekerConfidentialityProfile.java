@@ -6,60 +6,36 @@ import java.util.List;
 import java.util.Map;
 
 import com.theladders.solid.ocp.resume.ConfidentialPhrase;
+import com.theladders.solid.ocp.resume.ConfidentialPhraseGroupManager;
 import com.theladders.solid.ocp.resume.ConfidentialPhraseItem;
 import com.theladders.solid.ocp.resume.ConfidentialPhraseGroup;
+import com.theladders.solid.ocp.resume.ConfidentialPhraseManager;
 
 public class JobseekerConfidentialityProfile
 {
   private Map<String, List<ConfidentialPhrase>> confidentialityProfile;
+  private ConfidentialPhraseGroupManager confidentialPhraseGroupManager;
+  private ConfidentialPhraseManager confidentialPhraseManager;
 
   public JobseekerConfidentialityProfile()
   {
     confidentialityProfile = new HashMap<>();
+    this.confidentialPhraseGroupManager = new ConfidentialPhraseGroupManager(this);
+    this.confidentialPhraseManager = new ConfidentialPhraseManager(this);
   }
   
-
-  public boolean resetConfidentialFlagsForCategoryGroup(ConfidentialPhraseGroup categoryGroup)
+  public boolean resetConfidentialFlagsForCategoryGroup(ConfidentialPhraseGroup confidentialPhraseGroup)
   {
-    boolean isChanged = false;
-
-    for(ConfidentialPhraseItem confidentailPhraseItem : categoryGroup.getConfidentialPhrases())
-    {
-      List<ConfidentialPhrase> phrases = this.getConfidentialPhrases(confidentailPhraseItem);
-      if (phrases != null)
-      {
-        for (ConfidentialPhrase phrase : phrases)
-        {
-          if (phrase.isConfidential())
-          {
-            phrase.setConfidential(false);
-            isChanged = true;
-          }
-        }
-      }
-    }
-    return isChanged;
+    return confidentialPhraseGroupManager.makePhraseGroupPublic(confidentialPhraseGroup);
   }
 
+  // Used for test
   public boolean isConfidential(ConfidentialPhraseItem confidentialPhraseItem)
   {	  
-    boolean isConfidential = false;
-
-
-    List<ConfidentialPhrase> phrases = this.getConfidentialPhrases(confidentialPhraseItem);
-    if (phrases != null)
-    {
-      for (ConfidentialPhrase phrase : phrases)
-      {
-        if (phrase.isConfidential())
-        {
-          isConfidential = true;
-        }
-      }
-    }  
-    return isConfidential;
+    return confidentialPhraseManager.isPhaseGroupItemConfidential(confidentialPhraseItem);
   }
 
+  // Used for test
   public void setConfidential(ConfidentialPhraseItem confidentialPhraseItem)
   {
     ConfidentialPhrase phrase = new ConfidentialPhrase();
@@ -69,7 +45,7 @@ public class JobseekerConfidentialityProfile
     confidentialityProfile.put(confidentialPhraseItem.name(), phrases);
   }
 
-  private List<ConfidentialPhrase> getConfidentialPhrases(ConfidentialPhraseItem item)
+  public List<ConfidentialPhrase> getConfidentialPhrases(ConfidentialPhraseItem item)
   {
     return confidentialityProfile.get(item.name());
   }

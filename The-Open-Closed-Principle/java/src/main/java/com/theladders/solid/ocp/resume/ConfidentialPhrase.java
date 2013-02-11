@@ -13,8 +13,10 @@ public class ConfidentialPhrase
     return isConfidential;
   }
 
-  public void setConfidential(boolean isConfidential)
+  public boolean setConfidential(boolean isConfidential)
   {
+    boolean isChanged = !(isConfidential == this.isConfidential);
     this.isConfidential = isConfidential;
+    return isChanged;
   }
 }
