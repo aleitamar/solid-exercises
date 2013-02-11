@@ -22,10 +22,7 @@ public class ConfidentialPhraseManager
     {
       for (ConfidentialPhrase phrase : phrases)
       {
-        if (phrase.isConfidential())
-        {
-          isConfidential = true;
-        }
+        isConfidential = phrase.isConfidential();
       }
     }  
     return isConfidential;

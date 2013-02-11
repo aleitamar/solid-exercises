@@ -20,8 +20,8 @@ public class JobseekerConfidentialityProfile
   public JobseekerConfidentialityProfile()
   {
     confidentialityProfile = new HashMap<>();
-    this.confidentialPhraseGroupManager = new ConfidentialPhraseGroupManager(this);
-    this.confidentialPhraseManager = new ConfidentialPhraseManager(this);
+    confidentialPhraseGroupManager = new ConfidentialPhraseGroupManager(this);
+    confidentialPhraseManager = new ConfidentialPhraseManager(this);
   }
   
   public boolean resetConfidentialFlagsForCategoryGroup(ConfidentialPhraseGroup confidentialPhraseGroup)
