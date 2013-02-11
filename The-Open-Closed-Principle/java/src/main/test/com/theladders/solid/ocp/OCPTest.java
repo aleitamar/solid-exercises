@@ -14,7 +14,6 @@ import com.theladders.solid.ocp.resume.ConfidentialPhraseItem;
 import com.theladders.solid.ocp.resume.ConfidentialResumeHandler;
 import com.theladders.solid.ocp.resume.JobseekerProfile;
 import com.theladders.solid.ocp.resume.JobseekerProfileManager;
-import com.theladders.solid.ocp.resume.ResumeConfidentialityManager;
 import com.theladders.solid.ocp.user.User;
 
 public class OCPTest
@@ -24,8 +23,7 @@ public class OCPTest
   {
     JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager();
     JobseekerConfidentialityProfileDao jobseekerConfidentialityProfileDao = new JobseekerConfidentialityProfileDao();
-    ConfidentialResumeHandler confidentialResumeHandler = new ConfidentialResumeHandler(jobseekerProfileManager, jobseekerConfidentialityProfileDao);
-    ResumeConfidentialityManager resumeConfidentialityManager = new ResumeConfidentialityManager(confidentialResumeHandler);
+    ConfidentialResumeHandler confidentialResumeHandler = new ConfidentialResumeHandler();
 
     int id = 1;
     User user = new User(id);
@@ -41,7 +39,7 @@ public class OCPTest
       assertTrue(jobseekerConfidentialityProfile.isConfidential(category));
     }
 
-    resumeConfidentialityManager.makePhraseGroupNonConfidential(jobseekerConfidentialityProfile,
+    confidentialResumeHandler.makePhraseGroupNonConfidential(jobseekerConfidentialityProfile,
                                                                 ConfidentialPhraseGroup.ALL);
 
     for (ConfidentialPhraseItem category : categories)
@@ -54,8 +52,7 @@ public class OCPTest
   public void aUserShouldBeAbleToReSetConfidentialityForAllContactInfo(){
     JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager();
     JobseekerConfidentialityProfileDao jobseekerConfidentialityProfileDao = new JobseekerConfidentialityProfileDao();
-    ConfidentialResumeHandler confidentialResumeHandler = new ConfidentialResumeHandler(jobseekerProfileManager, jobseekerConfidentialityProfileDao);
-    ResumeConfidentialityManager resumeConfidentialityManager = new ResumeConfidentialityManager(confidentialResumeHandler);
+    ConfidentialResumeHandler confidentialResumeHandler = new ConfidentialResumeHandler();
 
     int id = 1;
     User user = new User(id);
@@ -74,7 +71,7 @@ public class OCPTest
       assertTrue(jobseekerConfidentialityProfile.isConfidential(category));
     }
 
-    resumeConfidentialityManager.makePhraseGroupNonConfidential(jobseekerConfidentialityProfile,
+    confidentialResumeHandler.makePhraseGroupNonConfidential(jobseekerConfidentialityProfile,
                                                                 ConfidentialPhraseGroup.CONTACT_INFO);
 
     assertTrue(jobseekerConfidentialityProfile.isConfidential(ConfidentialPhraseItem.Name));

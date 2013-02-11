@@ -6,7 +6,6 @@ import com.theladders.solid.ocp.resume.ConfidentialPhraseGroup;
 import com.theladders.solid.ocp.resume.ConfidentialResumeHandler;
 import com.theladders.solid.ocp.resume.JobseekerProfile;
 import com.theladders.solid.ocp.resume.JobseekerProfileManager;
-import com.theladders.solid.ocp.resume.ResumeConfidentialityManager;
 import com.theladders.solid.ocp.user.User;
 
 public class App
@@ -15,8 +14,7 @@ public class App
   {
     JobseekerProfileManager jobseekerProfileManager = new JobseekerProfileManager();
     JobseekerConfidentialityProfileDao jobseekerConfidentialityProfileDao = new JobseekerConfidentialityProfileDao();
-    ConfidentialResumeHandler confidentialResumeHandler = new ConfidentialResumeHandler(jobseekerProfileManager, jobseekerConfidentialityProfileDao);
-    ResumeConfidentialityManager resumeConfidentialityManager = new ResumeConfidentialityManager(confidentialResumeHandler);
+    ConfidentialResumeHandler confidentialResumeHandler = new ConfidentialResumeHandler();
 
     int id = 1; // get from command line?
     User user = new User(id);
@@ -24,6 +22,6 @@ public class App
     JobseekerProfile jobseekerProfile = jobseekerProfileManager.getJobSeekerProfile(user);
     JobseekerConfidentialityProfile jobseekerConfidentialityProfile = jobseekerConfidentialityProfileDao.fetchJobSeekerConfidentialityProfile(jobseekerProfile.getId());
 
-    resumeConfidentialityManager.makePhraseGroupNonConfidential(jobseekerConfidentialityProfile,ConfidentialPhraseGroup.ALL);
+    confidentialResumeHandler.makePhraseGroupNonConfidential(jobseekerConfidentialityProfile,ConfidentialPhraseGroup.ALL);
   }
 }
