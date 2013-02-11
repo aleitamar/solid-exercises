@@ -35,7 +35,8 @@ public class TestIt
   private static final int INCOMPLETE_JOBSEEKER  = 888;
   private static final int APPROVED_JOBSEEKER    = 1010;
 
-  private ApplyController            controller;
+  private ApplyWithFileController    applyWithFileController;
+  private ApplyWithResumeController  applyWithResumeController;
   private JobRepository              jobRepository;
   private ResumeRepository           resumeRepository;
   private JobApplicationRepository   jobApplicationRepository;
@@ -57,7 +58,7 @@ public class TestIt
 
     HttpResponse response = new HttpResponse();
 
-    controller.handle(request, response, SHARED_RESUME_NAME);
+    applyWithFileController.handle(request, response, SHARED_RESUME_NAME);
 
     assertEquals("success", response.getResultType());
   }
@@ -76,7 +77,7 @@ public class TestIt
 
     HttpResponse response = new HttpResponse();
 
-    controller.handle(request, response, SHARED_RESUME_NAME);
+    applyWithFileController.handle(request, response, SHARED_RESUME_NAME);
 
     assertEquals("success", response.getResultType());
   }
@@ -96,7 +97,7 @@ public class TestIt
 
     HttpResponse response = new HttpResponse();
 
-    controller.handle(request, response, SHARED_RESUME_NAME);
+    applyWithResumeController.handle(request, response);
 
     assertEquals("success", response.getResultType());
   }
@@ -115,7 +116,7 @@ public class TestIt
 
     HttpResponse response = new HttpResponse();
 
-    controller.handle(request, response, SHARED_RESUME_NAME);
+    applyWithFileController.handle(request, response, SHARED_RESUME_NAME);
 
     assertEquals("invalidJob", response.getResultType());
   }
@@ -134,7 +135,7 @@ public class TestIt
 
     HttpResponse response = new HttpResponse();
 
-    controller.handle(request, response, null);
+    applyWithFileController.handle(request, response, null);
 
     assertEquals("error", response.getResultType());
   }
@@ -153,7 +154,7 @@ public class TestIt
 
     HttpResponse response = new HttpResponse();
 
-    controller.handle(request, response, SHARED_RESUME_NAME);
+    applyWithFileController.handle(request, response, SHARED_RESUME_NAME);
 
     assertEquals("error", response.getResultType());
   }
@@ -172,7 +173,7 @@ public class TestIt
 
     HttpResponse response = new HttpResponse();
 
-    controller.handle(request, response, SHARED_RESUME_NAME);
+    applyWithFileController.handle(request, response, SHARED_RESUME_NAME);
 
     assertEquals("completeResumePlease", response.getResultType());
   }
@@ -191,7 +192,7 @@ public class TestIt
 
     HttpResponse response = new HttpResponse();
 
-    controller.handle(request, response, SHARED_RESUME_NAME);
+    applyWithFileController.handle(request, response, SHARED_RESUME_NAME);
 
     assertTrue(resumeRepository.contains(new Resume(SHARED_RESUME_NAME)));
   }
@@ -211,7 +212,7 @@ public class TestIt
 
     HttpResponse response = new HttpResponse();
 
-    controller.handle(request, response, "Save Me Seymour");
+    applyWithFileController.handle(request, response, "Save Me Seymour");
 
     assertEquals(new Resume("Save Me Seymour"), activeResumeRepository.activeResumeFor(APPROVED_JOBSEEKER));
   }
@@ -299,7 +300,11 @@ public class TestIt
     ResumeManager resumeManager = new ResumeManager(resumeRepository);
     MyResumeManager myResumeManager = new MyResumeManager(activeResumeRepository, resumeManager);
 
-    controller = new ApplyController(jobSearchService,
+    applyWithFileController = new ApplyWithFileController(jobSearchService,
+                                     jobApplicationSystem,
+                                     myResumeManager);
+    
+    applyWithResumeController = new ApplyWithResumeController(jobSearchService,
                                      jobApplicationSystem,
                                      myResumeManager);
   }

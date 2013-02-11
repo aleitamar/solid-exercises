@@ -42,4 +42,9 @@ public class Resume
       return false;
     return true;
   }
+
+  public void destroy()
+  {
+   //die 
+  }
 }

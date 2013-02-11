@@ -15,20 +15,12 @@ public class MyResumeManager
     this.resumeManager = resumeManager;
   }
 
-  public Resume findOrCreateResumeWithOptions(Jobseeker jobseeker, Map<String, Boolean> options, String filename)
+  public Resume createResumeWithOptions(Jobseeker jobseeker, Map<String, Boolean> options, String filename)
   {  
-    Resume resume;
-    if (options.get("isNewResume"))
+    Resume resume = resumeManager.saveResume(jobseeker, filename);
+    if (resume != null && options.get("shouldMakeResumeActive"))
     {
-      resume = resumeManager.saveResume(jobseeker, filename);
-      if (resume != null && options.get("shouldMakeResumeActive"))
-      {
-        saveAsActive(jobseeker, resume);
-      }
-    }
-    else
-    {
-      resume = getActiveResume(jobseeker.getId());
+      saveAsActive(jobseeker, resume);
     }
     return resume;
   }
@@ -39,8 +31,9 @@ public class MyResumeManager
     repository.makeActive(jobseeker.getId(), resume);
   }
 
-  public Resume getActiveResume(int jobseekerId)
+  public Resume getActiveResume(Jobseeker jobseeker)
   {
-    return repository.activeResumeFor(jobseekerId);
+    return repository.activeResumeFor(jobseeker.getId());
   }
+
 }
