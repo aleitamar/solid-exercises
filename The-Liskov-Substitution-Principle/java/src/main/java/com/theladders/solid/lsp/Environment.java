@@ -1,34 +1,38 @@
 package com.theladders.solid.lsp;
 
 import java.util.HashMap;
+import java.util.Map;
 
-public class Environment extends HashMap<Object, Object>
-{
-  private static final long serialVersionUID = 7526472295622776147L;  
-  public static final String KEY_EMAIL_DOMAIN = "emaildomain";
-
-  public Environment()
+public class Environment {
+  private final Map<String, String> config;
+  private String hostName;
+  
+  public Environment(String hostName)
   {
-    super();
+    this.config = new HashMap<>();
+    this.hostName = hostName;
+    buildDefaultValues();
   }
-
-  /**
-   * Convenience method that returns the admin email address for this ladder.
-   *
-   * @return email address or "" if either the user or domain is not defined
-   */
-
-  public String getAdminEmail()
+  
+  public String getValue(String key)
   {
-    String user = getString("admin");
-    String domain = getString(KEY_EMAIL_DOMAIN);
-
-    return user.length() > 0 && domain.length() > 0 ? user + "@" + domain : "";
+    return config.get(key);
   }
-
-  public String getString(String key)
+  
+  public void setValue(String key, String value)
   {
-    Object val = get(key);
-    return (val != null) ? val.toString().trim() : "";
+    config.put(key, value);
+  }
+  
+  public Map<String, String> toMap()
+  {
+    return config;
+  }
+  
+  private void buildDefaultValues()
+  {
+    setValue("isSSL", "true");
+    setValue("home", "http://" + hostName);
+    setValue("secureHome", "https://" + hostName);
   }
 }
