@@ -13,16 +13,16 @@ public class EnvironmentTest {
     boolean isSecure = true;
     boolean loggedInUser = true;
     Environment env = filter.getEnvironment(isSecure, loggedInUser);
-    assertEquals("true", env.get("isSSL"));
-    assertEquals("https://www.example.com/member/", env.get("secureHome"));
-    assertEquals("http://www.example.com/member/", env.get("home"));
-    assertEquals("https://www.example.com/", env.get("secureGuestSiteHome"));
-    assertEquals("https://www.example.com/", env.get("secureFalconSiteHome"));
-    assertEquals("https://www.example.com/member/", env.get("secureMemberSiteHome"));
-    assertEquals("https://www.example.com/member/", env.get("secureHome"));
-    assertEquals("http://www.example.com/member/", env.get("memberSiteHome"));
-    assertEquals("http://www.example.com/", env.get("guestSiteHome"));
-    assertEquals("http://www.example.com/", env.get("falconSiteHome"));
+    assertEquals("true", getValueForKey(env,"isSSL"));
+    assertEquals("https://www.example.com/member/", getValueForKey(env,"secureHome"));
+    assertEquals("http://www.example.com/member/", getValueForKey(env,"home"));
+    assertEquals("https://www.example.com/", getValueForKey(env,"secureGuestSiteHome"));
+    assertEquals("https://www.example.com/", getValueForKey(env,"secureFalconSiteHome"));
+    assertEquals("https://www.example.com/member/", getValueForKey(env,"secureMemberSiteHome"));
+    assertEquals("https://www.example.com/member/", getValueForKey(env,"secureHome"));
+    assertEquals("http://www.example.com/member/", getValueForKey(env,"memberSiteHome"));
+    assertEquals("http://www.example.com/", getValueForKey(env,"guestSiteHome"));
+    assertEquals("http://www.example.com/", getValueForKey(env,"falconSiteHome"));
   }
 
   @Test
@@ -33,16 +33,16 @@ public class EnvironmentTest {
     boolean isSecure = true;
     boolean loggedInUser = false;
     Environment env = filter.getEnvironment(isSecure, loggedInUser);
-    assertEquals("true", env.get("isSSL"));
-    assertEquals("https://www.example.com/", env.get("secureHome"));
-    assertEquals("http://www.example.com/", env.get("home"));
-    assertEquals("https://www.example.com/", env.get("secureGuestSiteHome"));
-    assertEquals("https://www.example.com/", env.get("secureFalconSiteHome"));
-    assertEquals("https://www.example.com/member/", env.get("secureMemberSiteHome"));
-    assertEquals("https://www.example.com/", env.get("secureHome"));
-    assertEquals("http://www.example.com/member/", env.get("memberSiteHome"));
-    assertEquals("http://www.example.com/", env.get("guestSiteHome"));
-    assertEquals("http://www.example.com/", env.get("falconSiteHome"));
+    assertEquals("true", getValueForKey(env,"isSSL"));
+    assertEquals("https://www.example.com/", getValueForKey(env,"secureHome"));
+    assertEquals("http://www.example.com/", getValueForKey(env,"home"));
+    assertEquals("https://www.example.com/", getValueForKey(env,"secureGuestSiteHome"));
+    assertEquals("https://www.example.com/", getValueForKey(env,"secureFalconSiteHome"));
+    assertEquals("https://www.example.com/member/", getValueForKey(env,"secureMemberSiteHome"));
+    assertEquals("https://www.example.com/", getValueForKey(env,"secureHome"));
+    assertEquals("http://www.example.com/member/", getValueForKey(env,"memberSiteHome"));
+    assertEquals("http://www.example.com/", getValueForKey(env,"guestSiteHome"));
+    assertEquals("http://www.example.com/", getValueForKey(env,"falconSiteHome"));
   }
 
   @Test
@@ -53,16 +53,16 @@ public class EnvironmentTest {
     boolean isSecure = false;
     boolean loggedInUser = true;
     Environment env = filter.getEnvironment(isSecure, loggedInUser);
-    assertEquals("true", env.get("isSSL"));
-    assertEquals("https://www.example.com/member/", env.get("secureHome"));
-    assertEquals("http://www.example.com/member/", env.get("home"));
-    assertEquals("https://www.example.com/", env.get("secureGuestSiteHome"));
-    assertEquals("https://www.example.com/", env.get("secureFalconSiteHome"));
-    assertEquals("https://www.example.com/member/", env.get("secureMemberSiteHome"));
-    assertEquals("https://www.example.com/member/", env.get("secureHome"));
-    assertEquals("http://www.example.com/member/", env.get("memberSiteHome"));
-    assertEquals("http://www.example.com/", env.get("guestSiteHome"));
-    assertEquals("http://www.example.com/", env.get("falconSiteHome"));
+    assertEquals("true", getValueForKey(env,"isSSL"));
+    assertEquals("https://www.example.com/member/", getValueForKey(env,"secureHome"));
+    assertEquals("http://www.example.com/member/", getValueForKey(env,"home"));
+    assertEquals("https://www.example.com/", getValueForKey(env,"secureGuestSiteHome"));
+    assertEquals("https://www.example.com/", getValueForKey(env,"secureFalconSiteHome"));
+    assertEquals("https://www.example.com/member/", getValueForKey(env,"secureMemberSiteHome"));
+    assertEquals("https://www.example.com/member/", getValueForKey(env,"secureHome"));
+    assertEquals("http://www.example.com/member/", getValueForKey(env,"memberSiteHome"));
+    assertEquals("http://www.example.com/", getValueForKey(env,"guestSiteHome"));
+    assertEquals("http://www.example.com/", getValueForKey(env,"falconSiteHome"));
   }
 
   @Test
@@ -73,15 +73,21 @@ public class EnvironmentTest {
     boolean isSecure = true;
     boolean loggedInUser = true;
     Environment env = filter.getEnvironment(isSecure, loggedInUser);
-    assertEquals("true", env.get("isSSL"));
-    assertEquals("https://www.example.com/member/", env.get("secureHome"));
-    assertEquals("http://www.example.com/member/", env.get("home"));
-    assertEquals("https://www.example.com/", env.get("secureGuestSiteHome"));
-    assertEquals("https://www.example.com/", env.get("secureFalconSiteHome"));
-    assertEquals("https://www.example.com/member/", env.get("secureMemberSiteHome"));
-    assertEquals("https://www.example.com/", env.get("secureHome"));
-    assertEquals("http://www.example.com/member/", env.get("memberSiteHome"));
-    assertEquals("http://www.example.com/", env.get("guestSiteHome"));
-    assertEquals("http://www.example.com/", env.get("falconSiteHome"));
+    assertEquals("true", getValueForKey(env,"isSSL"));
+    assertEquals("https://www.example.com/member/", getValueForKey(env, "secureHome"));
+    assertEquals("http://www.example.com/member/", getValueForKey(env,"home"));
+    assertEquals("https://www.example.com/", getValueForKey(env,"secureGuestSiteHome"));
+    assertEquals("https://www.example.com/", getValueForKey(env,"secureFalconSiteHome"));
+    assertEquals("https://www.example.com/member/", getValueForKey(env,"secureMemberSiteHome"));
+    assertEquals("https://www.example.com/member/", getValueForKey(env,"secureHome"));
+    assertEquals("http://www.example.com/member/", getValueForKey(env,"memberSiteHome"));
+    assertEquals("http://www.example.com/", getValueForKey(env,"guestSiteHome"));
+    assertEquals("http://www.example.com/", getValueForKey(env,"falconSiteHome"));
   }
+
+  private Object getValueForKey(Environment environment, String key)
+  {
+    return environment.get(key);
+  }
+
 }

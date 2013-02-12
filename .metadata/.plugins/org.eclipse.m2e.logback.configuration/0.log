@@ -519,3 +519,51 @@ Caused by: java.nio.channels.UnresolvedAddressException: null
 2013-02-12 17:29:44,728 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
 2013-02-12 17:29:44,730 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2013-02-12 17:29:44,730 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
+2013-02-12 17:31:52,063 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:31:52,063 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
+2013-02-12 17:31:52,064 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:31:52,064 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
+2013-02-12 17:31:56,494 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:31:56,494 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
+2013-02-12 17:31:56,496 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:31:56,496 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
+2013-02-12 17:33:34,789 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:33:34,789 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
+2013-02-12 17:33:34,791 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:33:34,791 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
+2013-02-12 17:34:05,596 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:34:05,596 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
+2013-02-12 17:34:05,598 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:34:05,598 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
+2013-02-12 17:34:31,301 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:34:31,301 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
+2013-02-12 17:34:31,302 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:34:31,303 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
+2013-02-12 17:34:49,580 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:34:49,580 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
+2013-02-12 17:34:49,581 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:34:49,581 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
+2013-02-12 17:35:38,325 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:35:38,325 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
+2013-02-12 17:35:38,327 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:35:38,327 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
+2013-02-12 17:36:16,609 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:36:16,609 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
+2013-02-12 17:36:16,610 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:36:16,611 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
+2013-02-12 17:36:26,725 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:36:26,725 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
+2013-02-12 17:36:26,727 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:36:26,727 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
+2013-02-12 17:37:21,931 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:37:21,931 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
+2013-02-12 17:37:21,933 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:37:21,933 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
+2013-02-12 17:38:24,241 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:38:24,241 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
+2013-02-12 17:38:24,243 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:38:24,243 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
+2013-02-12 17:38:33,525 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:38:33,525 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
+2013-02-12 17:38:33,527 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:38:33,527 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
