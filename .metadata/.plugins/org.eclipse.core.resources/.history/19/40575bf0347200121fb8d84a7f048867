@@ -1,6 +1,0 @@
-package com.theladders.solid.ocp.resume;
-
-public abstract class ResumeDetail
-{
-
-}

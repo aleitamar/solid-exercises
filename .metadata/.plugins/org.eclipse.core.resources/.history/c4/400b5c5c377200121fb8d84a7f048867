@@ -1,7 +1,0 @@
-package com.theladders.solid.ocp.resume;
-
-public class ResumeDetailGroupManager
-{
-  private ResumeDetailGroup resumeDetailGroup;
-
-}

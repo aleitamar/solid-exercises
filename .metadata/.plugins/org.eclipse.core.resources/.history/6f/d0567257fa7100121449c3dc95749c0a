@@ -1,7 +1,0 @@
-package com.theladders.solid.srp.job.application;
-
-public enum JobApplicationErrorMessages {
-	
-	private List messages
-
-}

@@ -34,6 +34,7 @@ public class ApplyWithResumeController
     ApplyWithFileParams applyWithFileParams = new ApplyWithFileParams(request, jobSearchService);
     Jobseeker jobseeker = applyWithFileParams.getJobseeker();
     JobDecorator jobDecorator = new JobDecorator(applyWithFileParams.getJob());
+    JobseekerApplicationSystem jobseekerApplicationSystem = new JobseekerApplicationSystem(jobseeker);
 
     if (jobDecorator.model == null)
     {
@@ -42,7 +43,6 @@ public class ApplyWithResumeController
 
     try
     {
-      JobseekerApplicationSystem jobseekerApplicationSystem = new JobseekerApplicationSystem(jobseeker);
       jobseekerApplicationSystem.applyWithResume(jobDecorator.model, jobApplicationSystem, resumeManager);
     }
     catch (Exception e)

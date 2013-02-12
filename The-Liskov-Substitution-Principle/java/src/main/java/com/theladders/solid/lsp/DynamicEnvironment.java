@@ -27,8 +27,6 @@ public class DynamicEnvironment extends Environment
   @Override
   public Collection<Object> values()
   {
-    // TODO remove masked values
-    // TODO join local instance values
     return base.values();
   }
 

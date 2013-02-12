@@ -307,7 +307,7 @@ public class TestIt
                                      resumeManager);
   }
   
-  private Jobseeker createJobseeker(int id, Boolean isPremium, JobseekerProfileManager jobseekerProfileManager)
+  private Jobseeker createJobseeker(int id, boolean isPremium, JobseekerProfileManager jobseekerProfileManager)
   {
     Jobseeker jobseeker = new Jobseeker(id, isPremium, jobseekerProfileManager);
     ProfileStatus status = ProfileStatus.APPROVED;
