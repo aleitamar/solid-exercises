@@ -515,3 +515,7 @@ Caused by: java.nio.channels.UnresolvedAddressException: null
 2013-02-12 17:27:19,377 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
 2013-02-12 17:27:19,379 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2013-02-12 17:27:19,379 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
+2013-02-12 17:29:44,728 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:29:44,728 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/main/resources
+2013-02-12 17:29:44,730 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-12 17:29:44,730 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Liskov-Substitution-Principle/java/src/test/resources
