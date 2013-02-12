@@ -5,7 +5,6 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 public class EnvironmentTest {
-
   @Test
   public void testSecureLoggedIn()
   {
@@ -83,7 +82,6 @@ public class EnvironmentTest {
     assertEquals("https://www.example.com/", env.get("secureHome"));
     assertEquals("http://www.example.com/member/", env.get("memberSiteHome"));
     assertEquals("http://www.example.com/", env.get("guestSiteHome"));
-    assertEquals("http://www.example.com/", env.get("falconSiteHome")); }
-
-
+    assertEquals("http://www.example.com/", env.get("falconSiteHome"));
+  }
 }
