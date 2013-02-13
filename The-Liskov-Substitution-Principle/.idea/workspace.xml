@@ -63,19 +63,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/main/java/com/theladders/solid/lsp/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicEnvironment.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java/src/main/java/com/theladders/solid/lsp/DynamicEnvironment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="12" selection-start="1404" selection-end="1412" vertical-scroll-proportion="0.5927602">
+            <state line="4" column="13" selection-start="75" selection-end="75" vertical-scroll-proportion="0.09049774">
               <folding />
             </state>
           </provider>
@@ -92,11 +83,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/java/src/main/java/com/theladders/solid/lsp/DynamicEnvironment.java" />
+        <option value="$PROJECT_DIR$/java/src/main/java/com/theladders/solid/lsp/App.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2162" />
+    <option name="x" value="242" />
     <option name="y" value="131" />
     <option name="width" value="1900" />
     <option name="height" value="1150" />
@@ -143,6 +135,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="The-Liskov-Substitution-Principle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,7 +330,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2162" y="131" width="1900" height="1150" extended-state="0" />
+    <frame x="242" y="131" width="1900" height="1150" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -422,14 +428,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/java/com/theladders/solid/lsp/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/src/main/java/com/theladders/solid/lsp/DynamicEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="12" selection-start="1404" selection-end="1412" vertical-scroll-proportion="0.5927602">
+        <state line="4" column="13" selection-start="75" selection-end="75" vertical-scroll-proportion="0.09049774">
           <folding />
         </state>
       </provider>
