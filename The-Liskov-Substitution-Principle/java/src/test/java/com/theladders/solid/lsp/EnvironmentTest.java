@@ -53,7 +53,7 @@ public class EnvironmentTest {
     boolean isSecure = false;
     boolean loggedInUser = true;
     Environment environment = filter.getEnvironment(isSecure, loggedInUser);
-    assertEquals("true", getValueForKey(environment,"isSSL"));
+    assertEquals("false", getValueForKey(environment,"isSSL"));
     assertEquals("https://www.example.com/member/", getValueForKey(environment,"secureHome"));
     assertEquals("http://www.example.com/member/", getValueForKey(environment,"home"));
     assertEquals("https://www.example.com/", getValueForKey(environment,"secureGuestSiteHome"));
@@ -70,16 +70,16 @@ public class EnvironmentTest {
   {
     EnvSetupFilter filter = new EnvSetupFilter("www.example.com/");
 
-    boolean isSecure = true;
-    boolean loggedInUser = true;
+    boolean isSecure = false;
+    boolean loggedInUser = false;
     Environment environment = filter.getEnvironment(isSecure, loggedInUser);
-    assertEquals("true", getValueForKey(environment,"isSSL"));
-    assertEquals("https://www.example.com/member/", getValueForKey(environment, "secureHome"));
-    assertEquals("http://www.example.com/member/", getValueForKey(environment,"home"));
+    assertEquals("false", getValueForKey(environment,"isSSL"));
+    assertEquals("https://www.example.com/", getValueForKey(environment, "secureHome"));
+    assertEquals("http://www.example.com/", getValueForKey(environment,"home"));
     assertEquals("https://www.example.com/", getValueForKey(environment,"secureGuestSiteHome"));
     assertEquals("https://www.example.com/", getValueForKey(environment,"secureFalconSiteHome"));
     assertEquals("https://www.example.com/member/", getValueForKey(environment,"secureMemberSiteHome"));
-    assertEquals("https://www.example.com/member/", getValueForKey(environment,"secureHome"));
+    assertEquals("https://www.example.com/", getValueForKey(environment,"secureHome"));
     assertEquals("http://www.example.com/member/", getValueForKey(environment,"memberSiteHome"));
     assertEquals("http://www.example.com/", getValueForKey(environment,"guestSiteHome"));
     assertEquals("http://www.example.com/", getValueForKey(environment,"falconSiteHome"));

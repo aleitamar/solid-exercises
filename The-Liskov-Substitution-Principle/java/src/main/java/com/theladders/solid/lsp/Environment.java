@@ -31,7 +31,6 @@ public class Environment {
   
   private void buildDefaultValues()
   {
-    setValue("isSSL", "true");
     setValue("home", "http://" + hostName);
     setValue("secureHome", "https://" + hostName);
   }

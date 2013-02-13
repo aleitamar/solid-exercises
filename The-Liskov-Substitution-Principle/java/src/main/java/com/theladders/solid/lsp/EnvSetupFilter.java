@@ -74,6 +74,9 @@ public class EnvSetupFilter
   public Environment getEnvironment(boolean isSecure, boolean loggedInUser)
   {
     Environment baseEnv = new Environment(hostName);
+    
+    Boolean isSecureAutoboxedBoolean = new Boolean(isSecure);
+    baseEnv.setValue("isSSL", isSecureAutoboxedBoolean.toString());
 
     new SiteConfiguration().seedEnvironment(baseEnv);
 
