@@ -1,10 +1,10 @@
 package com.theladders.solid.isp.oldjob;
 
-import java.util.List;
-
 import com.theladders.solid.isp.oldjob.stubs.Discipline;
 import com.theladders.solid.isp.oldjob.stubs.Experience;
 import com.theladders.solid.isp.oldjob.stubs.Industry;
+
+import java.util.List;
 
 public abstract class JobImpl implements JobCommon
 {

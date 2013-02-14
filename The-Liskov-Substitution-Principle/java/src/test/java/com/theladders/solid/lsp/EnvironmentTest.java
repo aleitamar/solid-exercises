@@ -1,8 +1,9 @@
 package com.theladders.solid.lsp;
 
-import static org.junit.Assert.*;
 
 import org.junit.*;
+
+import static org.junit.Assert.*;
 
 public class EnvironmentTest {
   @Test

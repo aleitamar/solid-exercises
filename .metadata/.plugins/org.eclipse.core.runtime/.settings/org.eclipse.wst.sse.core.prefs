@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-task-tag-projects-already-scanned=solid-srp
+task-tag-projects-already-scanned=solid-srp,solid-dip,solid-isp,solid-lsp,solid-ocp
