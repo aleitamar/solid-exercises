@@ -1533,3 +1533,165 @@ org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.a
 2013-02-14 15:39:24,190 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
 2013-02-14 15:39:24,191 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2013-02-14 15:39:24,191 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:41:05,456 [Worker-42] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.theladders:solid-dip:0.0.1-SNAPSHOT @ /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/pom.xml.
+2013-02-14 15:41:05,487 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:41:05,487 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:41:05,488 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:41:05,488 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:41:17,044 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:41:17,044 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:41:17,045 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:41:17,045 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:41:32,487 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:41:32,487 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:41:32,488 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:41:32,488 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:42:21,598 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:42:21,598 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:42:21,599 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:42:21,599 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:43:24,855 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:43:24,856 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:43:24,857 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:43:24,857 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:43:28,691 [Worker-61] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.theladders:solid-dip:0.0.1-SNAPSHOT @ /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/pom.xml.
+2013-02-14 15:43:28,709 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:43:28,710 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:43:28,711 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:43:28,711 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:43:57,154 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:43:57,154 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:43:57,155 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:43:57,155 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:44:34,971 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:44:34,971 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:44:34,973 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:44:34,973 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:44:46,246 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:44:46,246 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:44:46,247 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:44:46,247 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:46:11,548 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:46:11,549 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:46:11,550 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:46:11,550 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:48:51,785 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:48:51,785 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:48:51,786 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:48:51,786 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:49:01,795 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:49:01,795 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:49:01,796 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:49:01,796 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:49:36,451 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:49:36,451 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:49:36,452 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:49:36,453 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:49:57,793 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:49:57,793 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:49:57,794 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:49:57,795 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:52:26,452 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:52:26,452 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:52:26,453 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:52:26,453 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:52:59,929 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:52:59,929 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:52:59,930 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:52:59,930 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:53:10,834 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:53:10,835 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:53:10,836 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:53:10,836 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:54:53,935 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:54:53,935 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:54:53,936 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:54:53,936 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:55:14,549 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:55:14,549 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:55:14,550 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:55:14,550 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:55:21,227 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:55:21,228 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:55:21,229 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:55:21,229 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:55:56,742 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:55:56,742 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:55:56,743 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:55:56,743 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:56:54,625 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:56:54,625 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:56:54,626 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:56:54,626 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:57:29,425 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:57:29,425 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:57:29,426 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:57:29,426 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:57:39,941 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:57:39,941 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:57:39,942 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:57:39,942 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:57:55,083 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:57:55,083 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:57:55,084 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:57:55,084 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:58:33,829 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:58:33,829 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:58:33,830 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:58:33,830 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:59:04,314 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:59:04,314 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:59:04,315 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:59:04,315 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 15:59:11,109 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:59:11,109 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 15:59:11,110 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 15:59:11,110 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 16:01:53,309 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:01:53,309 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 16:01:53,310 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:01:53,310 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 16:02:02,865 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:02:02,865 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 16:02:02,867 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:02:02,867 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 16:02:30,275 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:02:30,275 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 16:02:30,276 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:02:30,276 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 16:02:34,909 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:02:34,909 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 16:02:34,910 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:02:34,910 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 16:02:44,751 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:02:44,751 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 16:02:44,752 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:02:44,752 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 16:03:22,595 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:03:22,595 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 16:03:22,596 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:03:22,596 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 16:04:42,240 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:04:42,240 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 16:04:42,241 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:04:42,241 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 16:05:10,980 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:05:10,981 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 16:05:10,982 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:05:10,982 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 16:05:24,265 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:05:24,265 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 16:05:24,266 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:05:24,266 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 16:05:34,129 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:05:34,130 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 16:05:34,131 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:05:34,131 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 16:06:01,319 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:06:01,320 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 16:06:01,321 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:06:01,321 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources
+2013-02-14 16:06:25,770 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:06:25,770 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/main/resources
+2013-02-14 16:06:25,771 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2013-02-14 16:06:25,771 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/tsymborski/projects/onboarding/day2/solid-exercises/The-Dependency-Inversion-Principle/java/src/test/resources

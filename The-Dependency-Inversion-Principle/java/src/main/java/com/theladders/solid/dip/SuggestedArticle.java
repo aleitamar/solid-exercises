@@ -20,6 +20,7 @@ public class SuggestedArticle
   private ContentNode content;
 
   private Integer     STATUS_UNREAD = 1;
+  private Integer id;
 
   public SuggestedArticle() {}
 
@@ -42,6 +43,13 @@ public class SuggestedArticle
   {
     return suggestedArticleId;
   }
+  
+  @Column(name = "id")
+  public Integer getid()
+  {
+    return id;
+  }
+  
 
   public void setSuggestedArticleId(Integer suggestedArticleId)
   {
